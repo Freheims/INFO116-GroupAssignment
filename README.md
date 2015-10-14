@@ -1,5 +1,5 @@
 #Group Assignment INFO116
-##By Daniel Bjørke, Fredrik Heimsæter and Tim Aadland
+###By Daniel Bjørke (@theddawg), Fredrik Heimsæter (@Freheims) and Tim Aadland (@theddawg)
 
 This repo contains our project
 
