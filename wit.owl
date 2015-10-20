@@ -1,0 +1,27 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://folk.uib.no/fhe003/Wittgenstein>
+
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Absolute>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Ethic>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Ethical>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Judgement>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#JudgementAbsolute>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Language>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Philosophy>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Value>))
+Declaration(Class(<http://folk.uib.no/fhe003/Wittgenstein#Wittgenstein>))
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Absolute> <http://folk.uib.no/fhe003/Wittgenstein#Value>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Ethic> <http://folk.uib.no/fhe003/Wittgenstein#Philosophy>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Ethical> <http://folk.uib.no/fhe003/Wittgenstein#Value>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Judgement> <http://folk.uib.no/fhe003/Wittgenstein#Ethic>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#JudgementAbsolute> <http://folk.uib.no/fhe003/Wittgenstein#Judgement>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Language> <http://folk.uib.no/fhe003/Wittgenstein#Philosophy>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Philosophy> <http://folk.uib.no/fhe003/Wittgenstein#Wittgenstein>)
+SubClassOf(<http://folk.uib.no/fhe003/Wittgenstein#Value> <http://folk.uib.no/fhe003/Wittgenstein#Language>)
+)
