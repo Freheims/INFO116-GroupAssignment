@@ -1,0 +1,10 @@
+LOG.TXT
+
+15.10
+First meeting. Discussed schedule and the task in general. Started looking at the primary text and the ontology.
+
+20.10
+Continued on the ontology.
+
+21.10
+Began planning a schedule for the rest of the semester. Created log. Tried to fix Protégé problems, more or less sucsessfully. 
