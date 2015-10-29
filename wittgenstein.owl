@@ -28,6 +28,12 @@
         <Class IRI="#Author"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External_source"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
@@ -49,10 +55,16 @@
         <Class IRI="#Philosophy_of_language"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Point"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Primary_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_language_argument"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Secondary_source"/>
@@ -71,6 +83,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wittgenstein_source"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Attitude"/>
@@ -81,6 +96,14 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External_source"/>
+        <Class IRI="#Primary_source"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Field"/>
         <Class IRI="#Subject"/>
     </SubClassOf>
@@ -105,6 +128,10 @@
         <Class IRI="#Field"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#Date"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Point"/>
         <Class IRI="#Subject"/>
     </SubClassOf>
@@ -113,9 +140,14 @@
         <Class IRI="#Source"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Private_language_argument"/>
+        <Class IRI="#Philosophy_of_language"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Secondary_source"/>
         <Class IRI="#Source"/>
     </SubClassOf>
+<<<<<<< HEAD
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#FirstName"/>
         <ObjectProperty IRI="#Name"/>
@@ -124,6 +156,12 @@
         <ObjectProperty IRI="#LastName"/>
         <ObjectProperty IRI="#Name"/>
     </SubObjectPropertyOf>
+=======
+    <SubClassOf>
+        <Class IRI="#Wittgenstein_source"/>
+        <Class IRI="#Primary_source"/>
+    </SubClassOf>
+>>>>>>> 96c72107f0695194ea12615547fb208d95850d61
 </Ontology>
 
 
