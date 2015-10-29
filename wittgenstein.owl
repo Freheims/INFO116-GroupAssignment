@@ -76,6 +76,12 @@
         <Class IRI="#Subject"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Typed_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wittgenstein_source"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#FirstName"/>
     </Declaration>
     <Declaration>
@@ -83,9 +89,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Name"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Wittgenstein_source"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Attitude"/>
@@ -147,7 +150,14 @@
         <Class IRI="#Secondary_source"/>
         <Class IRI="#Source"/>
     </SubClassOf>
-<<<<<<< HEAD
+    <SubClassOf>
+        <Class IRI="#Typed_source"/>
+        <Class IRI="#Wittgenstein_source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wittgenstein_source"/>
+        <Class IRI="#Primary_source"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#FirstName"/>
         <ObjectProperty IRI="#Name"/>
@@ -156,12 +166,6 @@
         <ObjectProperty IRI="#LastName"/>
         <ObjectProperty IRI="#Name"/>
     </SubObjectPropertyOf>
-=======
-    <SubClassOf>
-        <Class IRI="#Wittgenstein_source"/>
-        <Class IRI="#Primary_source"/>
-    </SubClassOf>
->>>>>>> 96c72107f0695194ea12615547fb208d95850d61
 </Ontology>
 
 
