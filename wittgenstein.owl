@@ -90,6 +90,24 @@
     <Declaration>
         <ObjectProperty IRI="#Name"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Typed_source-207"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WittgensteinLudwig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ethic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#locigalAnalysis"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Attitude"/>
         <Class IRI="#Philosophy_of_ethics"/>
@@ -132,7 +150,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Place"/>
-        <Class IRI="#Date"/>
+        <Class IRI="#Subject"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Point"/>
@@ -158,6 +176,26 @@
         <Class IRI="#Wittgenstein_source"/>
         <Class IRI="#Primary_source"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Point"/>
+        <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Typed_source"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#WittgensteinLudwig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#locigalAnalysis"/>
+    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#FirstName"/>
         <ObjectProperty IRI="#Name"/>
