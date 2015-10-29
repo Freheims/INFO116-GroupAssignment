@@ -8,3 +8,9 @@ Continued on the ontology.
 
 21.10
 Began planning a schedule for the rest of the semester. Created log. Tried to fix Protégé problems, more or less sucsessfully. 
+
+28.10
+Created scrum-boad thingy. Started on restructuring our ontology because we had discovered that we had done it way to specific.
+
+29.10
+Continued on the new version of the ontology. Added some instances. 
