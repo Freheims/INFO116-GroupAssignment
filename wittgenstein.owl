@@ -11,16 +11,19 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://folk.uib.no/fhe003/wittgenstein"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://folk.uib.no/fhe003/wittgenstein">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Argument"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#Attitude"/>
     </Declaration>
@@ -115,6 +118,9 @@
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Simile"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Typed_source-207"/>
     </Declaration>
     <Declaration>
@@ -130,6 +136,9 @@
         <NamedIndividual IRI="#locigalAnalysis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#metaphysical"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </Declaration>
     <Declaration>
@@ -138,6 +147,10 @@
     <Declaration>
         <AnnotationProperty IRI="#isPartOf"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Argument"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Attitude"/>
         <Class IRI="#Philosophy_of_ethics"/>
@@ -239,6 +252,10 @@
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Subject"/>
+        <NamedIndividual IRI="#Simile"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Date"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ClassAssertion>
@@ -263,6 +280,10 @@
         <NamedIndividual IRI="#locigalAnalysis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Subject"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Date"/>
         <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </ClassAssertion>
@@ -304,6 +325,11 @@
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
@@ -316,12 +342,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
         <NamedIndividual IRI="#Typed_source-207"/>
         <NamedIndividual IRI="#WittgensteinLudwig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#Simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
@@ -336,12 +377,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
@@ -397,5 +453,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 

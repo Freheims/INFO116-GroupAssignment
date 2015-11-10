@@ -14,3 +14,6 @@ Created scrum-boad thingy. Started on restructuring our ontology because we had 
 
 29.10
 Continued on the new version of the ontology. Added some instances. 
+
+10.11
+Still ontology work. We may actually understand something. We think atleast that.  
