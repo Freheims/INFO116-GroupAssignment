@@ -9,9 +9,9 @@ The project report can be found [here](https://drive.google.com/open?id=1pdzDhUk
 
 
 TODO:
-- [] Get an overview of the project
+- [x] Get an overview of the project
     - [] Read all the texts
-    - [] Read up on ontologies
+    - [x] Read up on ontologies
 - [] Create ontology
 - [] Annotate HTML pages
 - [] Create SPARQL queries
