@@ -449,6 +449,13 @@
         <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
         <Literal datatypeIRI="&xsd;integer">2007</Literal>
     </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#haveWritten"/>
+        <ObjectProperty IRI="#isWrittenBy"/>
+    </InverseObjectProperties>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#refersTo"/>
+    </IrreflexiveObjectProperty>
 </Ontology>
 
 
