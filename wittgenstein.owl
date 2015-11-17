@@ -10,12 +10,12 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://folk.uib.no/fhe003/wittgenstein"
+     xml:base="http://uib.no/INFO116/wittgenstein"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://folk.uib.no/fhe003/wittgenstein">
+     ontologyIRI="http://uib.no/INFO116/wittgenstein">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -322,12 +322,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#ethic"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
@@ -342,12 +342,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-        <NamedIndividual IRI="#ethic"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -357,12 +357,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Simile"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#ethic"/>
+        <NamedIndividual IRI="#Simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
