@@ -22,6 +22,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Absolute"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Argument"/>
     </Declaration>
     <Declaration>
@@ -64,7 +67,7 @@
         <Class IRI="#Primary_source"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Private_language_argument"/>
+        <Class IRI="#Relative"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Secondary_source"/>
@@ -148,6 +151,10 @@
         <AnnotationProperty IRI="#isPartOf"/>
     </Declaration>
     <SubClassOf>
+        <Class IRI="#Absolute"/>
+        <Class IRI="#Philosophy_of_language"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Argument"/>
         <Class IRI="#Subject"/>
     </SubClassOf>
@@ -200,7 +207,7 @@
         <Class IRI="#Source"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Private_language_argument"/>
+        <Class IRI="#Relative"/>
         <Class IRI="#Philosophy_of_language"/>
     </SubClassOf>
     <SubClassOf>
