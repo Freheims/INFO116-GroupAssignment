@@ -2,3 +2,5 @@
 ./resources/wittgenstein.owl
 *.log
 *.aux
+*.swp
+
