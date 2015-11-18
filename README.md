@@ -12,7 +12,13 @@ TODO:
 - [x] Get an overview of the project
     - [] Read all the texts
     - [x] Read up on ontologies
-- [] Create ontology
+    - [] Learn how to annotate HTML pages
+- [x] Create ontology
 - [] Annotate HTML pages
 - [] Create SPARQL queries
+    - [x] 1/5
+    - [x] 2/5
+    - [x] 3/5
+    - [] 4/5
+    - [] 5/5
 - [] Write report
