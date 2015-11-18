@@ -118,9 +118,6 @@
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Simile"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Typed_source-207"/>
     </Declaration>
     <Declaration>
@@ -149,6 +146,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#sense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#simile"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#value"/>
@@ -259,10 +259,6 @@
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Subject"/>
-        <NamedIndividual IRI="#Simile"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Typed_source"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ClassAssertion>
@@ -279,7 +275,7 @@
         <NamedIndividual IRI="#absolute"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Subject"/>
+        <Class IRI="#Issue"/>
         <NamedIndividual IRI="#ethic"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -295,7 +291,7 @@
         <NamedIndividual IRI="#logical"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Subject"/>
+        <Class IRI="#Issue"/>
         <NamedIndividual IRI="#metaphysical"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -305,6 +301,10 @@
     <ClassAssertion>
         <Class IRI="#Issue"/>
         <NamedIndividual IRI="#sense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#simile"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Issue"/>
@@ -346,12 +346,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#sense"/>
+        <NamedIndividual IRI="#metaphysical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#metaphysical"/>
+        <NamedIndividual IRI="#sense"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
@@ -451,7 +451,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Simile"/>
+        <NamedIndividual IRI="#simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
@@ -471,7 +471,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-        <NamedIndividual IRI="#Simile"/>
+        <NamedIndividual IRI="#simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
