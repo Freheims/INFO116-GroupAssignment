@@ -127,13 +127,31 @@
         <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#absolute"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ethic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#language"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#locigalAnalysis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#logical"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#metaphysical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semantic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#value"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
@@ -258,17 +276,41 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subject"/>
         <NamedIndividual IRI="#ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#language"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Issue"/>
         <NamedIndividual IRI="#locigalAnalysis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#logical"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Subject"/>
         <NamedIndividual IRI="#metaphysical"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#sense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </ClassAssertion>
@@ -304,6 +346,36 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -319,12 +391,32 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#semantic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -334,7 +426,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
         <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
@@ -354,12 +466,32 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#Simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#absolute"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -369,12 +501,37 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#absolute"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#language"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
