@@ -34,9 +34,6 @@
         <Class IRI="#Author"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Date"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
@@ -127,13 +124,10 @@
         <NamedIndividual IRI="#Typed_source-207"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#WittgensteinLudwig"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ethic"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#l"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#locigalAnalysis"/>
@@ -142,10 +136,10 @@
         <NamedIndividual IRI="#metaphysical"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#isPartOf"/>
@@ -165,10 +159,6 @@
     <SubClassOf>
         <Class IRI="#Author"/>
         <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Date"/>
-        <Class IRI="#Subject"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Field"/>
@@ -239,20 +229,12 @@
         <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Date"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Author"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Date"/>
-        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
@@ -263,20 +245,16 @@
         <NamedIndividual IRI="#Simile"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Date"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Typed_source"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
             <AnnotationProperty IRI="#isPartOf"/>
-            <IRI>#WittgensteinLudwig</IRI>
+            <IRI>#Wittgenstein_Ludwig</IRI>
         </Annotation>
         <Class IRI="#Author"/>
-        <NamedIndividual IRI="#WittgensteinLudwig"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Issue"/>
@@ -291,30 +269,22 @@
         <NamedIndividual IRI="#metaphysical"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Date"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <Class IRI="#Secondary_typed_source"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Date"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Secondary_typed_source"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Deirdre_Smith"/>
-        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Deirdre_Smith"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
@@ -339,7 +309,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -359,7 +329,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
         <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#WittgensteinLudwig"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
@@ -373,42 +343,42 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
-        <NamedIndividual IRI="#WittgensteinLudwig"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#Deirdre_Smith"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#refersTo"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#Simile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#metaphysical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#refersTo"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#Typed_source-207"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
@@ -443,22 +413,22 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
-        <NamedIndividual IRI="#WittgensteinLudwig"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
         <Literal datatypeIRI="&xsd;integer">1929</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
-        <NamedIndividual IRI="#Ethics,_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <Literal datatypeIRI="&xsd;integer">2007</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:_Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <Literal datatypeIRI="&xsd;integer">2007</Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#haveWritten"/>
         <ObjectProperty IRI="#isWrittenBy"/>
+        <ObjectProperty IRI="#haveWritten"/>
     </InverseObjectProperties>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#refersTo"/>
