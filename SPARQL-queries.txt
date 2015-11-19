@@ -7,8 +7,8 @@ SELECT ?author ?source
 WHERE { 
     ?author a wit:Author.
     ?source wit:isWrittenBy ?author.
-    ?source wit:refersTo
-	<http://uib.no/INFO116/wittgenstein#Simile>.
+    ?source wit:mentions
+	<http://uib.no/INFO116/wittgenstein#simile>.
 }
 
 
