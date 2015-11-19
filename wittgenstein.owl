@@ -11,10 +11,10 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://uib.no/INFO116/wittgenstein"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://uib.no/INFO116/wittgenstein">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -115,6 +115,39 @@
         <NamedIndividual IRI="#Janyne_Sattler"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
     </Declaration>
     <Declaration>
@@ -125,39 +158,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
@@ -286,6 +286,50 @@
         <NamedIndividual IRI="#Janyne_Sattler"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Typed_source"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Point"/>
         <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
     </ClassAssertion>
@@ -300,50 +344,6 @@
     <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Typed_source"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Chapter"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
     </ClassAssertion>
     <ClassAssertion>
         <Annotation>
@@ -417,29 +417,289 @@
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#Janyne_Sattler"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#language"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
         <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#metaphysical"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#sense"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
         <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -449,7 +709,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#sense"/>
+        <NamedIndividual IRI="#metaphysical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -457,9 +717,29 @@
         <NamedIndividual IRI="#logical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
@@ -470,6 +750,16 @@
         <ObjectProperty IRI="#isWrittenBy"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <NamedIndividual IRI="#Deirdre_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -479,17 +769,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-        <NamedIndividual IRI="#sense"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -499,292 +779,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#contains"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isWrittenBy"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#simile"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c10"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c2"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c2"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c3"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c4"/>
-        <NamedIndividual IRI="#logical"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c5"/>
-        <NamedIndividual IRI="#logical"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-        <NamedIndividual IRI="#logical"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c6"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c7"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#simile"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c8"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Typed_source-207_c9"/>
-        <NamedIndividual IRI="#sense"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -794,6 +794,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -804,22 +809,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-        <NamedIndividual IRI="#simile"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
-        <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#absolute"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
         <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -829,27 +829,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#absolute"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#sense"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#language"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#metaphysical"/>
+        <NamedIndividual IRI="#ethic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -859,12 +844,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#ethic"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#absolute"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#refersTo"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
@@ -875,6 +875,11 @@
         <DataProperty IRI="#dateFrom"/>
         <NamedIndividual IRI="#Janyne_Sattler"/>
         <Literal datatypeIRI="&xsd;integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <Literal datatypeIRI="&xsd;integer">1929</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
@@ -890,11 +895,6 @@
         <DataProperty IRI="#dateFrom"/>
         <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
         <Literal datatypeIRI="&xsd;integer">2007</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#dateFrom"/>
-        <NamedIndividual IRI="#Typed_source-207"/>
-        <Literal datatypeIRI="&xsd;integer">1929</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dateFrom"/>
@@ -912,8 +912,8 @@
         <Literal datatypeIRI="&xsd;integer">2007</Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#haveWritten"/>
         <ObjectProperty IRI="#isWrittenBy"/>
+        <ObjectProperty IRI="#haveWritten"/>
     </InverseObjectProperties>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#mentions"/>
@@ -922,5 +922,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
