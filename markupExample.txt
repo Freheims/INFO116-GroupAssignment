@@ -1,286 +1,92 @@
 <script type="application/json+ld">
       {
           "@context": {
-            "uib": "http://www.uib.no/ontologies/university#",
+            "wit": "http://uib.no/INFO116/wittgenstein#",
             "owl": "http://www.w3.org/2002/07/owl#"
           }, 
-          "@id": "http://www.uib.no/en/course/INFO125",
+          "@id": "http://wab.uib.no/cost-a32/Ts-207_norm.html",
           "@type": [
             "http://www.w3.org/2002/07/owl#NamedIndividual",
             "uib:Course"
           ],
           "owl:sameAs": {
-            "@id": "uib:INFO125"
+            "@id": "wit:Typed_source-207"
           },
-          "uib:atFaculty": {
-            "@id": "uib:Faculty_of_Social_Sciences"
-          },
-          "uib:atInstitute": {
-            "@id": "uib:Department_of_Information_Science_and_Media_Studies"
-          },
-          "uib:coversSubjectArea": [
+          
+          
+          "wit:contains": [
             {
-              "@id": "uib:Queries"
+              "@id": "wit:Typed_source-207_c1"
             },
             {
-              "@id": "uib:Relational_Models"
+              "@id": "wit:Typed_source-207_c2"
             },
             {
-              "@id": "uib:Enhanced_entity_relationship"
+              "@id": "wit:Typed_source-207_c3"
             },
             {
-              "@id": "uib:Database"
+              "@id": "wit:Typed_source-207_c4"
             },
             {
-              "@id": "uib:SQL"
+              "@id": "wit:Typed_source-207_c5"
             }
+	    {
+              "@id": "wit:Typed_source-207_c6"
+            },
+            {
+              "@id": "wit:Typed_source-207_c7"
+            },
+	    {
+              "@id": "wit:Typed_source-207_c8"
+            },
+	    {
+              "@id": "wit:Typed_source-207_c9"
+            },
+	    {
+              "@id": "wit:Typed_source-207_c10"
+            },
+          
           ],
-          "uib:hasClass": [
+	  "wit:mentions": [
             {
-              "@id": "uib:14H-INFO125-0-1-3-5-1_Labøvelser_gr5_2014-10-07"
+              "@id": "wit:ethic"
             },
             {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-10-07"
+              "@id": "wit:sense"
             },
             {
-              "@id": "uib:14H-INFO125-0-1-6-3_Lynkurs_2014-08-18"
+              "@id": "wit:absolute"
             },
             {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-09-16"
+              "@id": "wit:logical"
             },
             {
-              "@id": "uib:14H-INFO125-0-1-3-2-1_Labøvelser_gr2_Nye_medier_2014-10-07"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-1-1_Seminar_gr1_IKT_2014-09-09"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-09-23"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-5-1_Labøvelser_gr5_2014-10-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-4-1_Labøvelser_gr4_2014-10-13"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-10-14"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-09-02"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-5-1_Labøvelser_gr5_2014-10-21"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-3-1_Labøvelser_gr3_2014-10-20"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-4-1_Labøvelser_gr4_2014-10-06"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-5-1_Seminar_gr5_2014-09-03"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-1-1_Labøvelser_gr1_IKT_2014-10-20"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-10-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-09-18"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-4-1_Labøvelser_gr4_2014-10-27"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-1-1_Labøvelser_gr1_IKT_2014-10-27"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-4-1_Labøvelser_gr4_2014-09-29"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-3-1_Seminar_3_2014-09-23"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-1-1_Seminar_gr1_IKT_2014-09-02"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-3-1_Seminar_3_2014-08-26"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-4-1_Labøvelser_gr4_2014-10-20"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-10-21"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-2-1_Seminar_gr2_Nye_medier_2014-09-04"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-09-16"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-09-09"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-3-1_Labøvelser_gr3_2014-09-29"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-1-1_Labøvelser_gr1_IKT_2014-10-06"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-2-1_Seminar_gr2_Nye_medier_2014-09-18"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-3-1_Seminar_3_2014-09-16"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-10-02"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-5-1_Seminar_gr5_2014-09-17"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-1-1_Labøvelser_gr1_IKT_2014-10-13"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-10-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-3-1_Labøvelser_gr3_2014-10-06"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-5-1_Seminar_gr5_2014-09-24"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-09-04"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-10-09"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-1-1_Labøvelser_gr1_IKT_2014-09-29"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-10-16"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-2-1_Labøvelser_gr2_Nye_medier_2014-10-14"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-2-1_Labøvelser_gr2_Nye_medier_2014-10-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-2-1_Labøvelser_gr2_Nye_medier_2014-09-30"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-1-1_Seminar_gr1_IKT_2014-09-16"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-2-1_Seminar_gr2_Nye_medier_2014-09-11"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-6-2_Lynkurs_2014-08-15"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-2-1_Seminar_gr2_Nye_medier_2014-08-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-3-1_Labøvelser_gr3_2014-10-27"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-5-1_Labøvelser_gr5_2014-10-14"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-2-1_Labøvelser_gr2_Nye_medier_2014-10-21"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-5-1_Seminar_gr5_2014-08-27"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-1-1_Seminar_gr1_IKT_2014-08-26"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-09-30"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-3-1_Seminar_3_2014-09-09"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-09-09"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-08-26"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-3_Forelesning_2014-11-27"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-5-1_Labøvelser_gr5_2014-09-30"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-6-1_Lynkurs_2014-08-15"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-09-02"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-1-1_Seminar_gr1_IKT_2014-09-23"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-2-1_Seminar_gr2_Nye_medier_2014-09-25"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-3-1_Seminar_3_2014-09-02"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-09-11"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-4-1_Seminar_gr4_2014-08-26"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-10-23"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-3-3-1_Labøvelser_gr3_2014-10-13"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-2-5-1_Seminar_gr5_2014-09-10"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-08-21"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-1_Forelesning_2014-08-28"
-            },
-            {
-              "@id": "uib:14H-INFO125-0-1-1-2_Forelesning_2014-08-19"
+              "@id": "wit:language"
             }
+	    {
+              "@id": "wit:value"
+            },
+            {
+              "@id": "wit:simile"
+            },
           ],
-          "uib:hasContactEmail": {
-            "@type": "uib:xsd;string",
-            "@value": "studieveileder@econ.uib.no"
+          "uib:haveWritten": [
+            {
+              "@id": "wit:Typed_source-207"
+            },
+            
+          ],
+          "uib:isWrittenBy": {
+            "@type": "wit:xsd;string",
+            "@value": "WittgensteinLudwig"
           },
-          "uib:hasCredits": {
-            "@type": "uib:xsd;int",
-            "@value": "10"
-          },
-          "uib:hasDescription": {
-            "@type": "uib:xsd;string",
+          "wit:mentions": {
+            "@type": "wit:xsd;string",
             "@value": ""
           },
-          "uib:hasExam": {
-            "@id": "uib:INFO125_Exam"
+          "uib:refersTo": {
+            "@type": "wwit:xsd;string",
+            "@value": ""
           },
-          "uib:hasSuggestedSemester": {
-            "@type": "uib:xsd;int",
-            "@value": "3"
-          },
-          "uib:hasTitle": {
-            "@type": "uib:xsd;string",
-            "@value": "Data Management"
-          }
-        }
+          
   </script>
