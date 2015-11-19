@@ -1,4 +1,4 @@
-#Group Assignment INFO116
+﻿#Group Assignment INFO116
 ###By Daniel Bjørke, Fredrik Heimsæter and Tim Aadland
 
 This repo contains our project
@@ -19,6 +19,6 @@ TODO:
     - [x] 1/5
     - [x] 2/5
     - [x] 3/5
-    - [] 4/5
-    - [] 5/5
+    - [x] 4/5
+    - [x] 5/5
 - [] Write report
