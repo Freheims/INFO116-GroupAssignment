@@ -151,6 +151,15 @@
         <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
     </Declaration>
     <Declaration>
@@ -350,6 +359,18 @@
     <ClassAssertion>
         <Class IRI="#Point"/>
         <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Secondary_typed_source"/>
@@ -739,6 +760,21 @@
         <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
         <NamedIndividual IRI="#Janyne_Sattler"/>
@@ -752,11 +788,6 @@
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
         <NamedIndividual IRI="#ethic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
-        <NamedIndividual IRI="#metaphysical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
@@ -776,6 +807,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
         <NamedIndividual IRI="#logical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -787,6 +823,36 @@
         <ObjectProperty IRI="#haveWritten"/>
         <NamedIndividual IRI="#Paul_Formosa"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isWrittenBy"/>
@@ -926,22 +992,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#value"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#mentions"/>
-        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#language"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
-        <NamedIndividual IRI="#logical"/>
+        <NamedIndividual IRI="#value"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
         <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
         <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#logical"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#mentions"/>
