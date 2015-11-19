@@ -78,7 +78,7 @@
           ],
           "uib:isWrittenBy": {
             "@type": "wit:xsd;string",
-            "@value": "WittgensteinLudwig"
+            "@value": "Wittgenstein_Ludwig"
           },
           "wit:mentions": {
             "@type": "wit:xsd;string",
