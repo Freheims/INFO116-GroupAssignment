@@ -1,0 +1,62 @@
+<script type="application/json+ld">
+      {
+          "@context": {
+            "wit": "http://uib.no/INFO116/wittgenstein#",
+            "owl": "http://www.w3.org/2002/07/owl#"
+	 }, 
+          "@id": "http://wittgensteinrepository.org/agora-alws/article/view/2840/3404",
+       
+         
+          "owl:sameAs": {
+            "@id": "wit:Moral_Judgements_as_Part_of_What_Ethics_Must_Show"
+          },
+
+
+
+
+
+
+
+
+ "wit:mentions": [
+            {
+              "@id": "wit:ethic"
+            },
+            {
+              "@id": "wit:sense"
+            },
+            
+            {
+              "@id": "wit:metaphysical"
+            },
+            {
+              "@id": "wit:language"
+            },
+	    {
+              "@id": "wit:value"
+            },
+	    {
+              "@id": "wit:logical"
+            },
+	    {
+              "@id": "wit:absolute"
+            },
+                        
+          ],
+          "wit:haveWritten": [
+            {
+              "@id": "wit:Moral_Judgements_as_Part_of_What_Ethics_Must_Show"
+            },
+            
+          ],
+          "wit:isWrittenBy": {
+            "@type": "wit:xsd;string",
+            "@value": "Janyne_Sattler"
+        
+          },
+          "wit:refersTo": {
+            "@type": "wit:xsd;string",
+            "@value": "Typed_source-207"
+          },
+          
+  </script>
