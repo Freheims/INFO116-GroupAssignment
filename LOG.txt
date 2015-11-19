@@ -16,4 +16,16 @@ Created scrum-boad thingy. Started on restructuring our ontology because we had 
 Continued on the new version of the ontology. Added some instances. 
 
 10.11
-Still ontology work. We may actually understand something. We think atleast that.  
+Still ontology work. We may actually understand something. We think atleast that. 
+
+11.11
+Added some more stuff to the ontology. Mainly properties.
+
+18.11
+Finished ontology and started on the SPARQL-queries. Started reading about
+annotating HTML-pages.
+
+19.11
+Added one more detail to the ontology. Finished SPARQL-queries. Started
+annotating HTML-pages.
+
