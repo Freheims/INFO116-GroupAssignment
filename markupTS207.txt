@@ -5,10 +5,8 @@
             "owl": "http://www.w3.org/2002/07/owl#"
           }, 
           "@id": "http://wab.uib.no/cost-a32/Ts-207_norm.html",
-          "@type": [
-            "http://www.w3.org/2002/07/owl#NamedIndividual",
-            "uib:Course"
-          ],
+       
+         
           "owl:sameAs": {
             "@id": "wit:Typed_source-207"
           },
@@ -70,13 +68,13 @@
               "@id": "wit:simile"
             },
           ],
-          "uib:haveWritten": [
+          "wit:haveWritten": [
             {
               "@id": "wit:Typed_source-207"
             },
             
           ],
-          "uib:isWrittenBy": {
+          "wit:isWrittenBy": {
             "@type": "wit:xsd;string",
             "@value": "Wittgenstein_Ludwig"
           },
@@ -84,8 +82,8 @@
             "@type": "wit:xsd;string",
             "@value": ""
           },
-          "uib:refersTo": {
-            "@type": "wwit:xsd;string",
+          "wit:refersTo": {
+            "@type": "wit:xsd;string",
             "@value": ""
           },
           
