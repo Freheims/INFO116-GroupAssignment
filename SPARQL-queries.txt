@@ -37,4 +37,18 @@ WHERE {
 	<http://uib.no/INFO116/wittgenstein#Deirdre_Smith>.
 	    ?article wit:dateFrom ?date.
 }
-  
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT ?articleWriter ?article ?source ?sourceWriter 
+WHERE {
+    ?article wit:isWrittenBy ?articleWriter.
+    ?article wit:refersTo ?source.
+    ?source wit:isWrittenBy ?sourceWriter
+}
+
