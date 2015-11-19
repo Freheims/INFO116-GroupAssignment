@@ -86,5 +86,9 @@
             "@type": "wit:xsd;string",
             "@value": ""
           },
+	  "wit:dateFrom": {
+            "@type": "wit:xsd;int",
+            "@value": "1929"
+          },
           
   </script>

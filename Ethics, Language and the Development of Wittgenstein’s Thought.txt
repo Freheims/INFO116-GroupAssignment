@@ -41,10 +41,14 @@
           "wit:isWrittenBy": {
             "@type": "wit:xsd;string",
             "@value": "Deirdre_Smith"
-
+	  }
           "wit:refersTo": {
             "@type": "wit:xsd;string",
             "@value": "Typed_source-207"
+          },
+	  "wit:dateFrom": {
+            "@type": "wit:xsd;int",
+            "@value": "2007"
           },
           
   </script>
