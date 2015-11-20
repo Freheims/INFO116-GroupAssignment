@@ -29,3 +29,6 @@ annotating HTML-pages.
 Added one more detail to the ontology. Finished SPARQL-queries. Started
 annotating HTML-pages.
 
+
+20.11
+Finished annotating HTML-pages. Started writing report.

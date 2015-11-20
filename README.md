@@ -7,15 +7,16 @@ The project report can be found [here](https://drive.google.com/open?id=1pdzDhUk
 
 [Doodle schedule] (http://doodle.com/poll/syyd62itwmdwrrbe)
 
+[Trello borad] (https://trello.com/b/W2B2mqpB/info116)
 
 TODO:
 - [x] Get an overview of the project
-    - [] Read all the texts
+    - [x] Read all the texts
     - [x] Read up on ontologies
-    - [] Learn how to annotate HTML pages
+    - [x] Learn how to annotate HTML pages
 - [x] Create ontology
-- [] Annotate HTML pages
-- [] Create SPARQL queries
+- [x] Annotate HTML pages
+- [x] Create SPARQL queries
     - [x] 1/5
     - [x] 2/5
     - [x] 3/5
