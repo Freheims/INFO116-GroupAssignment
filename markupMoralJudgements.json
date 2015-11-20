@@ -10,15 +10,20 @@
           "owl:sameAs": {
             "@id": "wit:Moral_Judgements_as_Part_of_What_Ethics_Must_Show"
           },
+		"wit:contains": [
+            {
+              "@id": "wit:Moral_Judgement_as_part_of_What_Ethics_Must_Show_c0"
+            },
+            {
+              "@id": "wit:Moral_Judgement_as_part_of_What_Ethics_Must_Show_c1"
+            },
+            {
+              "@id": "wit:Moral_Judgement_as_part_of_What_Ethics_Must_Show_c2"
+            },
+          
+          ],
 
-
-
-
-
-
-
-
- "wit:mentions": [
+ 	"wit:mentions": [
             {
               "@id": "wit:ethic"
             },

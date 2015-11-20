@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=file:////ustaoset.uib.no/taa016/INFO116-GroupAssignment/, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1448012969411" name="http://uib.no/INFO116/wittgenstein" uri="wittgenstein.owl"/>
+    </group>
+</catalog>
