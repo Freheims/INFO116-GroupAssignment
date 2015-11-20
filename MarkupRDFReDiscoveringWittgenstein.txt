@@ -19,16 +19,16 @@
         <meta name="DC.Description" xml:lang="en"
             content="
             The Wittgenstein Archives at the University of Bergen (WAB) was established in 1990
-               with the following goals: producing a machine readable version of Wittgenstein’s
+               with the following goals: producing a machine readable version of Wittgenstein?s
                Nachlass; developing software to assist scholars in locating, viewing and analyzing
                Nachlass texts; developing registration systems and software to present, work with
                and analyze original textual sources; and establishing links to international
                Wittgenstein research and computer programming projects with similar text encoding
-               goals. Both the conception and realization of WAB’s participation in DISCOVERY
+               goals. Both the conception and realization of WAB?s participation in DISCOVERY
                (Digital Semantic Corpora for Virtual Research in Philosophy) fit with the further
-               development of these initial goals. This paper’s main objective is to present the
-               advantages of DISCOVERY’s semantic approach to texts using examples from Ms. 139a, otherwise
-               known as Wittgenstein’s ‘Lecture on Ethics’
+               development of these initial goals. This paper?s main objective is to present the
+               advantages of DISCOVERY?s semantic approach to texts using examples from Ms. 139a, otherwise
+               known as Wittgenstein?s ?Lecture on <span property="mentions">Ethics</span>?
          " />
         <meta name="DC.Format" scheme="IMT" content="application/pdf" />
         <meta name="DC.Format" scheme="IMT" content="text/html" />
@@ -1649,29 +1649,29 @@ Free Software Foundation, Inc.,
                                			The Wittgenstein Archives at the
                                         University of Bergen (WAB) was established in 1990 with the
                                         following goals: producing a machine readable version of
-                                        Wittgenstein’s Nachlass; developing software to assist
+                                        Wittgenstein?s Nachlass; developing software to assist
                                         scholars in locating, viewing and analyzing Nachlass texts;
                                         developing registration systems and software to present,
                                         work with and analyze original textual sources; and
                                         establishing links to international Wittgenstein research
                                         and computer programming projects with similar text encoding
-                                        goals. Both the conception and realization of WAB’s
+                                        goals. Both the conception and realization of WAB?s
                                         participation in DISCOVERY (Digital Semantic Corpora for
                                         Virtual Research in Philosophy) fit with the further
-                                        development of these initial goals. This paper’s main
-                                        objective is to present the advantages of DISCOVERY’s
-                               <span property="semantic">semantic</span> approach to texts using examples from <a
+                                        development of these initial goals. This paper?s main
+                                        objective is to present the advantages of DISCOVERY?s
+                               <span property="mentions">semantic</span> approach to texts using examples from <a
                                             class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms.
-                                            139a</a>, otherwise known as Wittgenstein’s <a
+                                   139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <a
                                             class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n"
-                                            >‘Lecture on <span property="ethic">Ethics</span>’</a></p></div><h2>Table of
+                                                ><span property="refersTo">Lecture_on_Ethics</span>?Lecture on <span property="mentions">Ethics</span>?</a></p></div><h2>Table of
                                     contents</h2><ul class="toc toc_front"></ul><ul
                                     class="toc toc_body">
                                     <li class="toc"><a class="toc toc_0"
                                             href="#index.xml-body.1_div.1">Compiling a
-                                            machine-readable edition of Wittgenstein’s
+                                            machine-readable edition of Wittgenstein?s
                                         Nachlass</a></li>
                                     <li class="toc"><a class="toc toc_0"
                                             href="#index.xml-body.1_div.2">Bergen Electronic Edition
@@ -1689,62 +1689,62 @@ Free Software Foundation, Inc.,
                                		The Wittgenstein Archives at the
                                     University of Bergen (WAB) opened its doors June 1st 1990 with
                                     several goals: producing a machine readable version of
-                                    Wittgenstein’s <span style="font-style: italic">Nachlass</span>;
+                                    Wittgenstein?s <span style="font-style: italic">Nachlass</span>;
                                     developing software to assist scholars in locating, viewing and
                                     analyzing <span style="font-style: italic">Nachlass</span>
                                     texts; developing registration systems and software to present,
                                     work with and analyze original textual sources; and establishing
                                     links to international Wittgenstein research and computer
                                     programming projects with similar text encoding goals. (WAB
-                                    report 1991) Both the conception and realization of WAB’s
-                                    participation in the DISCOVERY project (Digital <span property="semantic">Semantic</span> Corpora
-                                    for Virtual Research in Philosophy) fit with WAB’s initial
+                                    report 1991) Both the conception and realization of WAB?s
+                                    participation in the DISCOVERY project (Digital <span property="mentions">Semantic</span> Corpora
+                                    for Virtual Research in Philosophy) fit with WAB?s initial
                                     goals. This paper originates in The Wittgenstein Archives at the
-                                    University of Bergen’s (WAB) participation in the eContent+
+                                    University of Bergen?s (WAB) participation in the eContent+
                                     funded DISCOVERY project. Although I begin with a brief history
-                                    of WAB’s work, my main objective is to present the advantages of
-                                    DISCOVERY’s <span property="semantic">semantic</span> approach to texts using examples from <a
+                                    of WAB?s work, my main objective is to present the advantages of
+                                    DISCOVERY?s <span property="mentions">semantic</span> approach to texts using examples from <a
                                         class="link_ref"
                                         href="http://www.wittgensteinsource.org/Ms-139a_n">Ms.
-                                        139a</a>, otherwise known as Wittgenstein’s <span
-                                        class="ref">‘Lecture on <span property="ethic">Ethics</span>)’</span>.<span
+                                        139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <span
+                                            class="ref"><span property="refersTo">Lecture_on_Ethics</span>?Lecture on <span property="mentions">Ethics</span>)?</span>.<span
                                         id="Note1_return"><a class="notelink"
-                                            title="For a discussion of difficulties met in its implementation see “Wittgenstein registrieren” by Wilhelm Krüger in this …"
+                                            title="For a discussion of difficulties met in its implementation see ?Wittgenstein registrieren? by Wilhelm Kr?ger in this ?"
                                             href="#Note1"><sup>1</sup></a></span></p><div
                                     class="teidiv0" id="index.xml-body.1_div.1"><h2><span
                                             class="head">Compiling a machine-readable edition of
-                                            Wittgenstein’s Nachlass</span></h2><p
+                                            Wittgenstein?s Nachlass</span></h2><p
                                         id="index.xml-p-d29e130">
                                		
                                			Preparing a machine readable
-                                        version of Wittgenstein’s <span style="font-style: italic"
+                                        version of Wittgenstein?s <span style="font-style: italic"
                                             >Nachlass</span> began in Norway already in 1981 under
                                         the aegis of The Norwegian Wittgenstein Project (Det norske
                                         Wittgensteinprosjektet) which was a cooperative endeavour
-                                        between the philosophy departments at Norway’s four main
-                                        universities in Oslo, Bergen, Trondheim and Tromsø.
-                                        Unfortunately, in the late 1980’s the materials it prepared
+                                        between the philosophy departments at Norway?s four main
+                                        universities in Oslo, Bergen, Trondheim and Troms?.
+                                        Unfortunately, in the late 1980?s the materials it prepared
                                         could not be made publicly available since the rights to
                                         them were disputed, making both gaining permission for
                                         distribution and acquiring money to finance the project
                                         difficult.</p><p style="text-indent: 5em"
-                                        id="index.xml-p-d29e135">Auspiciously, in the early 1990’s,
-                                        WAB attained both permission from Wittgenstein’s literary
+                                        id="index.xml-p-d29e135">Auspiciously, in the early 1990?s,
+                                        WAB attained both permission from Wittgenstein?s literary
                                         trustees (G.E.M. Anscombe, Anthony Kenny, Peter Winch and
                                         Georg Henrik von Wright) and funding. Software prototypes
                                         developed by, and some 3,200 pages transcribed by, the
                                         Norwegian Wittgenstein Project formed the foundation for
-                                        WAB’s initial work. WAB’s first goal was to transcribe 7,500
-                                        pages of the 20,000 pages of Wittgenstein’s Nachlass and
+                                        WAB?s initial work. WAB?s first goal was to transcribe 7,500
+                                        pages of the 20,000 pages of Wittgenstein?s Nachlass and
                                         complete the most important elements of the software needed
                                         to view them. What is special about this transcription and
                                         the challenge to those developing software for the
                                         machine-readable edition, was to reproduce these pages as
                                         truly as possible. This meant capturing in a digital format
                                         the many cross outs, deletions, rewordings, cross
-                                        references, etc., found in Wittgenstein’s Nachlass. To this
+                                        references, etc., found in Wittgenstein?s Nachlass. To this
                                         purpose, WAB developed a standard for registering these
-                                        aspects of Wittgenstein’s texts which formed the basis for
+                                        aspects of Wittgenstein?s texts which formed the basis for
                                         software allowing the kind of versatile representation the
                                         project demanded</p><p style="text-indent: 5em"
                                         id="index.xml-p-d29e137">
@@ -1757,9 +1757,9 @@ Free Software Foundation, Inc.,
                                         Since then, WAB has been actively involved in and followed
                                         the development of TEI guidelines. However, since TEI
                                         guidelines were based on a standard (SGML Standard
-                               Generalized Markup <span property="language">Language</span>) which restricted encoding
+                               Generalized Markup <span property="mentions">Language</span>) which restricted encoding
                                         possibilities, WAB chose not to follow them. Instead, WAB
-                                        further developed the MECS (Multi-Element Code System –
+                                        further developed the MECS (Multi-Element Code System ?
                                         developed by Claus Huitfelt) coding system into MECS-WIT,
                                         which better suited its needs,.</p></div><div
                                     class="teidiv0" id="index.xml-body.1_div.2"><h2><span
@@ -1770,19 +1770,19 @@ Free Software Foundation, Inc.,
                       In 1992, WAB and Oxford University Press agreed to utilize
                                         the machine-readable version along with electronic
                                         facsimiles of the original manuscripts and typescripts
-                                        toward publishing Wittgenstein’s <span
+                                        toward publishing Wittgenstein?s <span
                                             style="font-style: italic">Nachlass</span> on CDROM. In
                                         2000, a 6 CD version of the <span class="ref">BEE</span> was
                                         released. In addition to containing complete sources and
-                                        drafts (over 50 different manuscripts) for Wittgenstein’s
+                                        drafts (over 50 different manuscripts) for Wittgenstein?s
                                         published works, the <span class="ref">BEE</span> includes
                                         previously unpublished or simply unknown material.</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e154">By
                                         presenting the <span style="font-style: italic"
-                                            >Nachlass</span> in what is termed a “combination of
-                                        editions” (cf. Pichler and Haugen 2005), the <span
-                                            class="ref">BEE</span>’s comprehensiveness, however,
-                                        extends beyond merely collecting Wittgenstein’s body of work
+                                            >Nachlass</span> in what is termed a ?combination of
+                                        editions? (cf. Pichler and Haugen 2005), the <span
+                                            class="ref">BEE</span>?s comprehensiveness, however,
+                                        extends beyond merely collecting Wittgenstein?s body of work
                                         into one edition. This is accomplished by providing <span
                                         style="font-style: italic">Nachlass</span> 
                       					<p resource="uri/#Chapter" typeof="Re-Discovering_Wittgenstein_c3">
@@ -1796,15 +1796,15 @@ Free Software Foundation, Inc.,
                                         alternative of two different readings is rendered (earlier
                                         alternatives can be viewed upon request). Having these two
                                         versions at hand gives the reader insight into
-                                        Wittgenstein’s writing process, and, in doing so, also an
-                                        enhanced understanding of his thought’s development. The
+                                        Wittgenstein?s writing process, and, in doing so, also an
+                                        enhanced understanding of his thought?s development. The
                                         same flexibility which allows for interlinked diplomatic and
                                         normalized versions enables specialized searches within
                                         manuscript sections, whole manuscripts and between
                                         manuscript groups as well as date ranges, specified
-                      <span property="language">languages</span>, graphic material and mathematic notation. And it
+                      <span property="mentions">languages</span>, graphic material and mathematic notation. And it
                                         is in these latter features we get a taste of the advantages
-                                        of a <span property="semantic">semantic</span> approach. (cf. Pichler 2002)</p></div><div
+                                        of a <span property="mentions">semantic</span> approach. (cf. Pichler 2002)</p></div><div
                                     class="teidiv0" id="index.xml-body.1_div.3"><h2><span
                                             class="head">DISCOVERY</span></h2><p
                                         id="index.xml-p-d29e168">
@@ -1813,7 +1813,7 @@ Free Software Foundation, Inc.,
                                         EU projects promoting international research and virtual
                                         infrastructures for collaborative research and e-learning,
                                         WAB co-initiated DISCOVERY in 2005 with a host of European
-                                        partners. DISCOVERY’s goal is to construct a <span
+                                        partners. DISCOVERY?s goal is to construct a <span
                                             style="font-style: italic">Philospace</span>, a virtual
                                         meeting place for philosophical collaboration and access to
                                         philosophical texts and media. These texts and media, called
@@ -1830,15 +1830,15 @@ Free Software Foundation, Inc.,
                                             >http://www.discovery-project.eu/index.html</a>).</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e180">WABs
                                         contribution to DISCOVERY consists of 5,000 pages covering
-                                            <span class="ref">’The Big Typescript’</span>
+                                            <span class="ref">?The Big Typescript?</span>
                     	                    (1929-1934), the <span class="ref">Brown Book</span> complex
-                               (1934-36), the <span class="ref">‘Lecture on </span property="ethic">Ethics’</span</span>
-                     					 1929) and <span class="ref">‘Notes on
+                               (1934-36), the <span class="ref">?Lecture on </span property="mentions">Ethics?</span</span>
+                     					 1929) and <span class="ref">?Notes on
                       					<p resource="uri/#Chapter" typeof="Re-Discovering_Wittgenstein_c4">
                       					<span property="logic">Logic</span></span>' (1913).
                                         What is exciting about the range of texts which WAB is thus
                                         preparing for DISCOVERY, is that they capture the
-                                        consolidation of Wittgenstein’s thought between his middle
+                                        consolidation of Wittgenstein?s thought between his middle
                                         and late (<span style="font-style: italic"><span class="ref"
                                                 >Philosophical Investigations</span></span>) period.
                                         Similarly to the <span class="ref">BEE</span>, the above
@@ -1855,21 +1855,21 @@ Free Software Foundation, Inc.,
                                         style="text-indent: 5em" id="index.xml-p-d29e205">
                               			<p resource="uri/#Chapter" typeof="Re-Discovering_Wittgenstein_c4">
                               			Unlike
-                                        general text searches, <span property="semantic">semantic</span>
+                                        general text searches, <span property="mentions">semantic</span>
                               			labelling helps researchers
                                         locate passages where the term or concept for which they
                                         search is discussed, but not literally used. One can of
                                         course try to approximate this process by using synonyms or
                                         alternative wordings, but many occurrences will still be
                                         left out. A somewhat different case would be someone
-                                        searching for examples of Wittgenstein’s use of rhetorical
+                                        searching for examples of Wittgenstein?s use of rhetorical
                                         questions. With a regular general text search, one might
                                         attempt locating these by searching for a question mark
                                         followed by a quotation mark. This would, however, work
-                                        neither in most standard search functions (where both ’?’
-                                        and ‘ ” ’ are operators) nor the <span class="ref"
+                                        neither in most standard search functions (where both ???
+                                        and ? ? ? are operators) nor the <span class="ref"
                                             >BEE</span>. Even considering the <span class="ref"
-                                            >BEE</span>’s increased flexibility, only an individual
+                                            >BEE</span>?s increased flexibility, only an individual
                                         with specialized knowledge of the system and its parameters
                                         can achieve such a search. Even assuming one has this
                                         specialist knowledge, the search would still not help
@@ -1880,7 +1880,7 @@ Free Software Foundation, Inc.,
                                         simply by searching for these terms and hoping that they are
                                         followed by actual examples, far more will remain hidden.
                                         Semantic labelling thus clearly represents an advance in
-                                        WAB’s goal of developing software to assist scholars in
+                                        WAB?s goal of developing software to assist scholars in
                                         locating, viewing and analyzing <span
                                             style="font-style: italic">Nachlass</span>
                                     texts.</p></div><div class="teidiv0" id="index.xml-body.1_div.4"
@@ -1889,35 +1889,35 @@ Free Software Foundation, Inc.,
                                         would like to illustrate these differences using a concrete
                                         example from <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n"
-                                            >MS139a</a>, otherwise known as Wittgenstein’s <span
-                                            class="ref">‘Lecture on Ethics’</span>. Although all
-                                        versions of <span class="ref">‘Lecture on Ethics’</span>, <a
+                                            >MS139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <span
+                                            class="ref">?Lecture on Ethics?</span>. Although all
+                                        versions of <span class="ref">?Lecture on Ethics?</span>, <a
                                             class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ts-207_n">Ts
                                             207</a> (published in <span style="font-style: italic"
                                             >Philosophical Occasions</span> and <span class="ref"
                                             >BEE</span>) and <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Mss
-                                            139a</a><span class="ref">-b</span> (published in <span
+                                                139a<span property="refersTo">Lecture_on_Ethics</span></a><span class="ref">-b</span> (published in <span
                                             class="ref">BEE</span>), will be available in
-                                        DISCOVERY’s <span style="font-style: italic"
+                                        DISCOVERY?s <span style="font-style: italic"
                                             >Philospace</span> as a <span style="font-style: italic"
                                             >Philosource</span>, it is <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a> which concerns us here.</p><p
+                                                139a<span property="refersTo">Lecture_on_Ethics</span></a> which concerns us here.</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e258">One of the
                                         first problems <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a> offers for semantic labelling is its lack of
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> offers for semantic labelling is its lack of
                                         paragraph divisions (this holds for <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ts-207_n">Ts
-                                            207</a> and <span class="ref">Ms 139b</span>). Such
+                                            207<span property="refersTo">Lecture_on_Ethics</span></a> and <span class="ref">Ms 139b</span>). Such
                                         labelling requires units of text which are restricted in
                                         length, both to make labelling more exact and to assist
                                         users in locating labels. For this reason, it was necessary
                                         to divide <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a> into smaller units. This was done according to
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> into smaller units. This was done according to
                                         thematic units (standard English paragraphs) which are well
                                         suited for semantic labelling.</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e272">Already in
@@ -1929,36 +1929,36 @@ Free Software Foundation, Inc.,
               							second paragraph of Ms 139a</a> we find examples where
                                         semantic tags are superior to simple word searches. In the
                                         second sentence we find a seemingly innocent word in two
-                                        forms: ‘communicate’ and ‘communicating’. This is not
+                                        forms: ?communicate? and ?communicating?. This is not
                                         exactly a word which has inspired much in the way of
                                         secondary literature. However, when we look at the way it is
                                         used, it can function as a synonym for other words such as
-                                        ‘<span property="language">language</span>)’ and ‘explanation’, which might be of higher
+                                        ?<span property="mentions">language</span>)? and ?explanation?, which might be of higher
                                         conceptual relevance for Wittgenstein researches as well as
                                         other philosophers who are have a more general interest in
-                                        Wittgenstein’s philosophy. Yet if we take Wittgenstein’s use
+                                        Wittgenstein?s philosophy. Yet if we take Wittgenstein?s use
                                         of communication in this paragraph as a whole, we find
                                         rather that it falls under two major themes found in the
-                                        paragraph: ‘difficulties met communicating thoughts
-                                        generally and philosophical explanations specifically’ and
-                                        ‘What are the boundaries of communication/<span property="language">language</span>?’. And
+                                        paragraph: ?difficulties met communicating thoughts
+                                        generally and philosophical explanations specifically? and
+                                        ?What are the boundaries of communication/<span property="mentions">language</span>??. And
                                         with this we can begin to answer a question readers may
-                                        already have asked themselves, “What is the difference
-                                        between semantic labelling and making a good index?” A good
-                                        index might next to the entry ‘communication’ write ‘cf.
-              explanation, <span property="language">language</span>’ and vice versa. This practice enables
+                                        already have asked themselves, ?What is the difference
+                                        between semantic labelling and making a good index?? A good
+                                        index might next to the entry ?communication? write ?cf.
+              explanation, <span property="mentions">language</span>? and vice versa. This practice enables
                                         the user to find occurrences of words, their synonyms and
                                         phrases containing both, however it does not make sense of
                                         the use of words or phrases. What semantic labelling does
                                         share with making indexes is to identify in advance what
                                         will be of interest for a reader and to facilitate its
-                                        location. <span property="semantic">Semantic</span> labelling does not stop here. It goes
+                                        location. <span property="mentions">Semantic</span> labelling does not stop here. It goes
                                         further to abstract an overall meaning from each paragraph
                                         based on these individual words and phrases. E.g.
-                                        ‘difficulties met communicating thoughts generally and
-                                        philosophical explanations specifically’ is based on more
+                                        ?difficulties met communicating thoughts generally and
+                                        philosophical explanations specifically? is based on more
                                         literal examples found in the text: being a non-native
-                                        language speaker, saying something which comes from the
+                                        <span property="mentions">language</span> speaker, saying something which comes from the
                                         heart, showing the listener both the road of an explanation
                                         and the end/goal to which it leads.</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e277">The
@@ -1968,7 +1968,7 @@ Free Software Foundation, Inc.,
                                         History of Philosophy, Philosophical Slogans and Comments.
                                         As with my first example, even though we may find examples
                                         of all of these in a good index, they would neither be
-                                        listed by category nor allow the kind of ‘sense making’
+                                        listed by category nor allow the kind of ?sense making?
                                         semantic labels do. If we look again at <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a,1r[2]et1v[1]et2r[1]_n"
                                             >paragraph two of Ms 139a</a>, we find several metaphors
@@ -1980,24 +1980,24 @@ Free Software Foundation, Inc.,
                                         Other current candidates falling under Form are: definition,
                                         example, analogy and simile. Regarding our third and fourth
                                         categories, Text exegesis and History of Philosophy we find
-                                        that Wittgenstein’s use of ‘human being’ (<span
-                                            class="quote">‘a human being who tries to tell other
+                                        that Wittgenstein?s use of ?human being? (<span
+                                            class="quote">?a human being who tries to tell other
                                             human beings something which some of them might possibly
-                                            find useful’</span>) can be traced to a discussion with
+                                            find useful?</span>) can be traced to a discussion with
                                         Maurice Drury around 1930 referring to William James as a
-                                        ‘human person’, and Wittgenstein responding, <span
-                                            class="quote">“That is what makes him a good
-                                            philosopher; he was a real human being.” (Goodman, p.
+                                        ?human person?, and Wittgenstein responding, <span
+                                            class="quote">?That is what makes him a good
+                                            philosopher; he was a real human being.? (Goodman, p.
                                             37)</span> Here we have reference to both a conversation
                                         contemporary to <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a> 
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> 
               							<p resource="uri/#Chapter" typeof="Re-Discovering_Wittgenstein_c5">
               							as well as to a figure in the history of
                                         philosophy whose work influenced Wittgenstein throughout his
                                         life. Although there is not much in the way of Philosophical
                                         Slogans found in this particular paragraph, we find many in
-              the next: <span property="ethic">Ethics</span>, Aesthetics, value and good. Perhaps more
+              the next: <span property="mentions">Ethics</span>, Aesthetics, <span property="mentions">value</span> and good. Perhaps more
                                         so than the Content category, this one most resembles an
                                         index. Yet here again we find the possibility of listing a
                                         slogan which, although not literally used, imbues a whole
@@ -2007,43 +2007,43 @@ Free Software Foundation, Inc.,
                                         regarding the labelling process itself can be placed. If we
                                         return to the <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a,1r[2]et1v[1]et2r[1]_n"
-                                            >second paragraph of Ms 139a</a>, this category could be
+                                            >second paragraph of Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a>, this category could be
                                         used to go into more explanatory detail regarding
-                                        Wittgenstein’s use of the road metaphor as something which
+                                        Wittgenstein?s use of the road metaphor as something which
                                         returns in several guises in his later philosophy: a rule
                                         standing as a signpost <span class="ref"><span
                                                 style="font-style: italic">Philosophical
-                                                Investigations</span> (PI) §85</span>, perspicuous
-                                        representation <span class="ref">PI §122</span>, method of
-                                        projection <span class="ref">PI §139</span>, <span
+                                                Investigations</span> (PI) ?85</span>, perspicuous
+                                        representation <span class="ref">PI ?122</span>, method of
+                                        projection <span class="ref">PI ?139</span>, <span
                                             class="ref">141</span>, <span class="ref">366</span>, as
-                                        well in <span class="ref">PI §426</span> where he mentions
+                                        well in <span class="ref">PI ?426</span> where he mentions
                                         God and uses other religious analogies to capture something
                                         to which we do not have access.</p><p
                                         style="text-indent: 5em" id="index.xml-p-d29e318">In the
                                         context of <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a> it becomes evident early on both how well the
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> it becomes evident early on both how well the
                                         actual process of semantic labelling fits with important
-                                        aspects of Wittgenstein’s philosophy, but also some dangers
+                                        aspects of Wittgenstein?s philosophy, but also some dangers
                                         it might pose. On <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a,2r[3]et2v[1]_n"
-                                            >p. 4 of Ms 139a</a> Wittgenstein uses Francis Galton
+                                            >p. 4 of Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a> Wittgenstein uses Francis Galton
                                         and composite photography as an example of the effect he
                                         would like to achieve by using synonyms to help communicate
-                                        his thoughts on the lecture’s theme, Ethics. There is a
+                                        his thoughts on the lecture?s theme, <span property="mentions">Ethics</span>. There is a
                                         tension in both the example of Galton, <a class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a>
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a>
               							<p resource="uri/#Chapter" typeof="Re-Discovering_Wittgenstein_c5">
-              							as a whole as well as Wittgenstein’s philosophy
+              							as a whole as well as Wittgenstein?s philosophy
                                         more generally regarding the use of examples both to point
                                         to a common thread as well as to illustrate the difficultly
-              of showing something essential to all. (cf. “<span property="ethic">Ethics</span>,
-                                       <span property="language">Language</span> and the Development of Wittgenstein’s Thought in <a
+              of showing something essential to all. (cf. ?<span property="mentions">Ethics</span>,
+                                       <span property="mentions">Language</span> and the Development of Wittgenstein?s Thought in <a
                                             class="link_ref"
                                             href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
-                                            139a</a>” in this volume) Like Galton’s layering of
+                                           139a<span property="refersTo">Lecture_on_Ethics</span></a>? in this volume) Like Galton?s layering of
                                         imagines one on top of the other to form a composite, the
                                         application of semantic labelling to a work offers different
                                         views depending on which layers make up the composite.
@@ -2055,8 +2055,8 @@ Free Software Foundation, Inc.,
                                         common types of human constitutions (illness, criminality)
                                         he did succeed in showing that fingerprints are unique.<span
                                             id="Note2_return"><a class="notelink"
-                                                title="I would like to thank WAB director Alois Pichler and Wilhelm Krüger for discussion and comments on drafts of this …"
-                                                href="#Note2"><sup>†</sup></a></span></p></div><div
+                                                title="I would like to thank WAB director Alois Pichler and Wilhelm Kr?ger for discussion and comments on drafts of this ?"
+                                                href="#Note2"><sup>?</sup></a></span></p></div><div
                                     class="Literature" id="index.xml-back.1_div.1"><h2><span
                                             class="head">Literature</span></h2><ol class="listBibl">
                                         <li id="index.xml-bibl-d29e339"><div class="biblfree">1991
@@ -2073,20 +2073,20 @@ Free Software Foundation, Inc.,
                                                   William James</span>, Cambridge: Cambridge
                                                 University Press.</div></li>
                                         <li id="index.xml-bibl-d29e347"><div class="biblfree"
-                                                >Pichler, A. and O.E. Haugen 2005 ”Fra kombinerte
+                                                >Pichler, A. and O.E. Haugen 2005 ?Fra kombinerte
                                                 utgaver til dynamisk utgivelse: Erfaringer fra
                                                 edisjonsfilologisk arbeid med Wittgensteins
-                                                filosofiske skrifter og nordiske middelaldertekster”
-                                                in Læsemåder: Udgavetyper og målgrupper, Nordisk
-                                                Netværk for Editionsfilologer, Skrifter 6 P. Dahl,
+                                                filosofiske skrifter og nordiske middelaldertekster?
+                                                in L?sem?der: Udgavetyper og m?lgrupper, Nordisk
+                                                Netv?rk for Editionsfilologer, Skrifter 6 P. Dahl,
                                                 J. Kondrup andK. Kynde (eds.) Copenhagen: C.A.
                                                 Reitzels Forlag, pp.178-249.</div></li>
                                         <li id="index.xml-bibl-d29e349"><div class="biblfree"
-                                                >Pichler, Alois 2002 ”Encoding Wittgenstein. Some
+                                                >Pichler, Alois 2002 ?Encoding Wittgenstein. Some
                                                 remarks on Wittgenstein's Nachlass, the Bergen
                                                 Electronic Edition, and future electronic publishing
-                                                and networking” In: <span style="font-style: italic"
-                                                  >TRANS. Internet-Zeitschrift für
+                                                and networking? In: <span style="font-style: italic"
+                                                  >TRANS. Internet-Zeitschrift f?r
                                                   Kulturwissenschaften 10/2001ff</span>, Wien:
                                                 Research Institute for Austrian and International
                                                 Literature and Cultural Studies (INST). (<a
@@ -2096,9 +2096,9 @@ Free Software Foundation, Inc.,
                                         <li id="index.xml-bibl-d29e357"><div class="biblfree"
                                                 >Wittgenstein, Ludwig 2000 <a class="link_ref"
                                                   href="http://www.wittgensteinsource.org/Ms-139a_n"
-                                                  >Ms 139a</a>: <span class="ref">“Lecture on
-                                                  Ethics”</span> in <span style="font-style: italic"
-                                                  >Wittgenstein’s Nachlass: Bergen Electronic
+                                                    >Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a>: <span class="ref">?Lecture on
+                                                  <span property="mentions">Ethics</span>?</span> in <span style="font-style: italic"
+                                                  >Wittgenstein?s Nachlass: Bergen Electronic
                                                   Edition</span>, Oxford: Oxford University
                                                 Press.</div></li>
                                         <li id="index.xml-bibl-d29e368"><div class="biblfree"><span
@@ -2107,20 +2107,20 @@ Free Software Foundation, Inc.,
                                         class="noteHeading">Notes</div><div class="note" id="Note1"
                                             ><span class="noteLabel">1. </span><div class="noteBody"
                                             >For a discussion of difficulties met in its
-                                            implementation see <span class="ref">“<span class="corr"
-                                                  >[Wittgenstein registrieren]</span>” by Wilhelm
-                                                Krüger in this volume</span>.</div>
+                                            implementation see <span class="ref">?<span class="corr"
+                                                  >[Wittgenstein registrieren]</span>? by Wilhelm
+                                                Kr?ger in this volume</span>.</div>
                                         <a class="link_return" title="Go back to text"
                                             href="#Note1_return">?</a></div><div class="note"
-                                        id="Note2"><span class="noteLabel">† </span><div
+                                        id="Note2"><span class="noteLabel">? </span><div
                                             class="noteBody">I would like to thank WAB director
-                                            Alois Pichler and Wilhelm Krüger for discussion and
+                                            Alois Pichler and Wilhelm Kr?ger for discussion and
                                             comments on drafts of this paper.</div>
                                         <a class="link_return" title="Go back to text"
                                             href="#Note2_return">?</a></div></div><div
                                     class="stdfooter"
                                     ><address>Deirdre Christine Page Smith.
-	    Date: XML TEI markup by WAB (Rune J. Falch,  Heinz W. Krüger,  Alois Pichler,  Deirdre C.P. Smith) 2011-13. Last change 18.12.2013.<br />
+	    Date: XML TEI markup by WAB (Rune J. Falch,  Heinz W. Kr?ger,  Alois Pichler,  Deirdre C.P. Smith) 2011-13. Last change 18.12.2013.<br />
 This page is made available under the Creative Commons General Public License "Attribution, Non-Commercial, Share-Alike", version 3.0 (CCPL BY-NC-SA) 
 <!--
 	  Generated from index.xml using XSLT stylesheets version 7.9.0
