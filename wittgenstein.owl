@@ -1,784 +1,1497 @@
-@prefix : <http://www.w3.org/2002/07/owl#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://uib.no/INFO116/wittgenstein> .
-
-<http://uib.no/INFO116/wittgenstein> rdf:type :Ontology .
-
-
-#################################################################
-#
-#    Annotation properties
-#
-#################################################################
-
-
-###  http://uib.no/INFO116/wittgenstein#isPartOf
-
-:isPartOf rdf:type :AnnotationProperty .
-
-
-
-
-
-#################################################################
-#
-#    Object Properties
-#
-#################################################################
-
-
-###  http://uib.no/INFO116/wittgenstein#Name
-
-:Name rdf:type :ObjectProperty .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#contains
-
-:contains rdf:type :ObjectProperty .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#haveWritten
-
-:haveWritten rdf:type :ObjectProperty .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#isWrittenBy
-
-:isWrittenBy rdf:type :ObjectProperty ;
-             
-             :inverseOf :haveWritten .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#mentions
-
-:mentions rdf:type :IrreflexiveProperty ,
-                   :ObjectProperty .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#refersTo
-
-:refersTo rdf:type :ObjectProperty .
-
-
-
-
-
-#################################################################
-#
-#    Data properties
-#
-#################################################################
-
-
-###  http://uib.no/INFO116/wittgenstein#dateFrom
-
-:dateFrom rdf:type :DatatypeProperty .
-
-
-
-
-
-#################################################################
-#
-#    Classes
-#
-#################################################################
-
-
-###  http://uib.no/INFO116/wittgenstein#Absolute
-
-:Absolute rdf:type :Class ;
-          
-          rdfs:subClassOf :Philosophy_of_language .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Argument
-
-:Argument rdf:type :Class ;
-          
-          rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Attitude
-
-:Attitude rdf:type :Class ;
-          
-          rdfs:subClassOf :Philosophy_of_ethics .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Author
-
-:Author rdf:type :Class ;
-        
-        rdfs:subClassOf :Person .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Chapter
-
-:Chapter rdf:type :Class ;
-         
-         rdfs:subClassOf :Source .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Field
-
-:Field rdf:type :Class ;
-       
-       rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Intension
-
-:Intension rdf:type :Class ;
-           
-           rdfs:subClassOf :Philosophy_of_ethics .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Issue
-
-:Issue rdf:type :Class ;
-       
-       rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Person
-
-:Person rdf:type :Class .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Perspective
-
-:Perspective rdf:type :Class ;
-             
-             rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Philosophy_of_ethics
-
-:Philosophy_of_ethics rdf:type :Class ;
-                      
-                      rdfs:subClassOf :Field .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Philosophy_of_language
-
-:Philosophy_of_language rdf:type :Class ;
-                        
-                        rdfs:subClassOf :Field .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Place
-
-:Place rdf:type :Class ;
-       
-       rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Point
-
-:Point rdf:type :Class ;
-       
-       rdfs:subClassOf :Subject .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Primary_source
-
-:Primary_source rdf:type :Class ;
-                
-                rdfs:subClassOf :Source .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Relative
-
-:Relative rdf:type :Class ;
-          
-          rdfs:subClassOf :Philosophy_of_language .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Secondary_source
-
-:Secondary_source rdf:type :Class ;
-                  
-                  rdfs:subClassOf :Source .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Secondary_typed_source
-
-:Secondary_typed_source rdf:type :Class ;
-                        
-                        rdfs:subClassOf :Secondary_source .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Source
-
-:Source rdf:type :Class .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Subject
-
-:Subject rdf:type :Class .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Typed_source
-
-:Typed_source rdf:type :Class ;
-              
-              rdfs:subClassOf :Wittgenstein_source .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Wittgenstein_source
-
-:Wittgenstein_source rdf:type :Class ;
-                     
-                     rdfs:subClassOf :Primary_source .
-
-
-
-
-
-#################################################################
-#
-#    Individuals
-#
-#################################################################
-
-
-###  http://uib.no/INFO116/wittgenstein#Deirdre_Smith
-
-:Deirdre_Smith rdf:type :Author ,
-                        :NamedIndividual ;
-               
-               :dateFrom 2007 ;
-               
-               :haveWritten :Re-Discovering_Wittgenstein ,
-                            <http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1
-
-:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 rdf:type :Chapter ,
-                                                                                     :NamedIndividual ;
-                                                                            
-                                                                            :refersTo :Lecture_on_Ethics ;
-                                                                            
-                                                                            :mentions :ethic ,
-                                                                                      :language ,
-                                                                                      :simile .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2
-
-:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 rdf:type :Chapter ,
-                                                                                     :NamedIndividual ;
-                                                                            
-                                                                            :refersTo :Lecture_on_Ethics ;
-                                                                            
-                                                                            :mentions :ethic ,
-                                                                                      :language ,
-                                                                                      :sense ,
-                                                                                      :simile ,
-                                                                                      :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3
-
-:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 rdf:type :Chapter ,
-                                                                                     :NamedIndividual ;
-                                                                            
-                                                                            :refersTo :Lecture_on_Ethics ;
-                                                                            
-                                                                            :mentions :absolute ,
-                                                                                      :ethic ,
-                                                                                      :sense ,
-                                                                                      :simile ,
-                                                                                      :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4
-
-:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 rdf:type :Chapter ,
-                                                                                     :NamedIndividual ;
-                                                                            
-                                                                            :refersTo :Lecture_on_Ethics ;
-                                                                            
-                                                                            :mentions :absolute ,
-                                                                                      :ethic ,
-                                                                                      :language ,
-                                                                                      :simile ,
-                                                                                      :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Janyne_Sattler
-
-:Janyne_Sattler rdf:type :Author ,
-                         :NamedIndividual ;
-                
-                :dateFrom 2010 ;
-                
-                :haveWritten :Moral_Judgments_as_Part_of_What_Ethics_Must_Show .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics
-
-:Lecture_on_Ethics rdf:type :Typed_source ,
-                            :NamedIndividual ;
-                   
-                   :dateFrom 1929 ;
-                   
-                   :contains :Lecture_on_Ethics_c1 ,
-                             :Lecture_on_Ethics_c10 ,
-                             :Lecture_on_Ethics_c2 ,
-                             :Lecture_on_Ethics_c3 ,
-                             :Lecture_on_Ethics_c4 ,
-                             :Lecture_on_Ethics_c5 ,
-                             :Lecture_on_Ethics_c6 ,
-                             :Lecture_on_Ethics_c7 ,
-                             :Lecture_on_Ethics_c8 ,
-                             :Lecture_on_Ethics_c9 ;
-                   
-                   :isWrittenBy :Wittgenstein_Ludwig ;
-                   
-                   :mentions :absolute ,
-                             :ethic ,
-                             :language ,
-                             :sense ,
-                             :simile ,
-                             :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c1
-
-:Lecture_on_Ethics_c1 rdf:type :Chapter ,
-                               :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c10
-
-:Lecture_on_Ethics_c10 rdf:type :Chapter ,
-                                :NamedIndividual ;
-                       
-                       :mentions :absolute ,
-                                 :ethic ,
-                                 :language ,
-                                 :sense ,
-                                 :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c2
-
-:Lecture_on_Ethics_c2 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :ethic ,
-                                :sense .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c3
-
-:Lecture_on_Ethics_c3 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :ethic ,
-                                :sense ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c4
-
-:Lecture_on_Ethics_c4 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :ethic ,
-                                :logical ,
-                                :sense ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c5
-
-:Lecture_on_Ethics_c5 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :ethic ,
-                                :logical ,
-                                :sense ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c6
-
-:Lecture_on_Ethics_c6 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :ethic ,
-                                :logical ,
-                                :sense ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c7
-
-:Lecture_on_Ethics_c7 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :language ,
-                                :sense .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c8
-
-:Lecture_on_Ethics_c8 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :ethic ,
-                                :language ,
-                                :sense ,
-                                :simile ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c9
-
-:Lecture_on_Ethics_c9 rdf:type :Chapter ,
-                               :NamedIndividual ;
-                      
-                      :mentions :absolute ,
-                                :language ,
-                                :sense ,
-                                :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Locical_analysis_is_essential_to_ethic
-
-:Locical_analysis_is_essential_to_ethic rdf:type :Point ,
-                                                 :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0
-
-:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0 rdf:type :Chapter ,
-                                                              :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1
-
-:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1 rdf:type :Chapter ,
-                                                              :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2
-
-:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2 rdf:type :Chapter ,
-                                                              :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgments_as_Part_of_What_Ethics_Must_Show
-
-:Moral_Judgments_as_Part_of_What_Ethics_Must_Show rdf:type :Secondary_typed_source ,
-                                                           :NamedIndividual ;
-                                                  
-                                                  :dateFrom 2010 ;
-                                                  
-                                                  :isWrittenBy :Janyne_Sattler ;
-                                                  
-                                                  :refersTo :Lecture_on_Ethics ;
-                                                  
-                                                  :contains :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0 ,
-                                                            :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1 ,
-                                                            :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2 ;
-                                                  
-                                                  :mentions :absolute ,
-                                                            :ethic ,
-                                                            :language ,
-                                                            :logical ,
-                                                            :metaphysical ,
-                                                            :sense ,
-                                                            :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Paul_Formosa
-
-:Paul_Formosa rdf:type :Author ,
-                       :NamedIndividual ;
-              
-              :dateFrom 2007 ;
-              
-              :haveWritten <http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein
-
-:Re-Discovering_Wittgenstein rdf:type :Secondary_typed_source ,
-                                      :NamedIndividual ;
-                             
-                             :dateFrom 2007 ;
-                             
-                             :isWrittenBy :Deirdre_Smith ;
-                             
-                             :refersTo :Lecture_on_Ethics ;
-                             
-                             :contains :Re-Discovering_Wittgenstein_c0 ,
-                                       :Re-Discovering_Wittgenstein_c1 ,
-                                       :Re-Discovering_Wittgenstein_c2 ,
-                                       :Re-Discovering_Wittgenstein_c3 ,
-                                       :Re-Discovering_Wittgenstein_c4 ,
-                                       :Re-Discovering_Wittgenstein_c5 ;
-                             
-                             :mentions :ethic ,
-                                       :language ,
-                                       :semantic ,
-                                       :sense ,
-                                       :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c0
-
-:Re-Discovering_Wittgenstein_c0 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :ethic .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c1
-
-:Re-Discovering_Wittgenstein_c1 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :ethic ,
-                                          :semantic .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c2
-
-:Re-Discovering_Wittgenstein_c2 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :language .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c3
-
-:Re-Discovering_Wittgenstein_c3 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :semantic .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c4
-
-:Re-Discovering_Wittgenstein_c4 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :semantic .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c5
-
-:Re-Discovering_Wittgenstein_c5 rdf:type :Chapter ,
-                                         :NamedIndividual ;
-                                
-                                :mentions :ethic ,
-                                          :language ,
-                                          :semantic .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Wittgenstein_Ludwig
-
-:Wittgenstein_Ludwig rdf:type :Author ,
-                              :NamedIndividual ;
-                     
-                     :dateFrom 1929 ;
-                     
-                     :haveWritten :Lecture_on_Ethics .
-[ rdf:type :Axiom ;
-  :annotatedTarget :Author ;
-  :isPartOf :Wittgenstein_Ludwig ;
-  :annotatedSource :Wittgenstein_Ludwig ;
-  :annotatedProperty rdf:type
-] .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#absolute
-
-:absolute rdf:type :Issue ,
-                   :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#ethic
-
-:ethic rdf:type :Issue ,
-                :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#language
-
-:language rdf:type :Issue ,
-                   :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#locigalAnalysis
-
-:locigalAnalysis rdf:type :Issue ,
-                          :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#logical
-
-:logical rdf:type :Issue ,
-                  :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#metaphysical
-
-:metaphysical rdf:type :Issue ,
-                       :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#semantic
-
-:semantic rdf:type :Issue ,
-                   :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#sense
-
-:sense rdf:type :Issue ,
-                :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#simile
-
-:simile rdf:type :Issue ,
-                 :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#value
-
-:value rdf:type :Issue ,
-                :NamedIndividual .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a
-
-<http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> rdf:type :Secondary_typed_source ,
-                                                                                                                             :NamedIndividual ;
-                                                                                                                    
-                                                                                                                    :dateFrom 2007 ;
-                                                                                                                    
-                                                                                                                    :isWrittenBy :Deirdre_Smith ;
-                                                                                                                    
-                                                                                                                    :contains :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 ;
-                                                                                                                    
-                                                                                                                    :mentions :absolute ,
-                                                                                                                              :ethic ,
-                                                                                                                              :language ,
-                                                                                                                              :sense ,
-                                                                                                                              :simile ,
-                                                                                                                              :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought
-
-<http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> rdf:type :Secondary_typed_source ,
-                                                                                                       :NamedIndividual ;
-                                                                                              
-                                                                                              :dateFrom 2007 ;
-                                                                                              
-                                                                                              :refersTo :Lecture_on_Ethics ;
-                                                                                              
-                                                                                              :isWrittenBy :Paul_Formosa ;
-                                                                                              
-                                                                                              :mentions :absolute ,
-                                                                                                        :ethic ,
-                                                                                                        :language ,
-                                                                                                        :logical ,
-                                                                                                        :metaphysical ,
-                                                                                                        :sense ,
-                                                                                                        :value .
-
-
-
-
-###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://uib.no/INFO116/wittgenstein"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://uib.no/INFO116/wittgenstein">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Absolute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chapter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Issue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perspective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy_of_ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Philosophy_of_language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_typed_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Typed_source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wittgenstein_source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haveWritten"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWrittenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mentions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refersTo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dateFrom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paul_Formosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ethic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#locigalAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#logical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metaphysical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semantic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#simile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isPartOf"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Absolute"/>
+        <Class IRI="#Philosophy_of_language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argument"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attitude"/>
+        <Class IRI="#Philosophy_of_ethics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chapter"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Field"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intension"/>
+        <Class IRI="#Philosophy_of_ethics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Issue"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspective"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_of_ethics"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Philosophy_of_language"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_source"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relative"/>
+        <Class IRI="#Philosophy_of_language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_source"/>
+        <Class IRI="#Source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary_typed_source"/>
+        <Class IRI="#Secondary_source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Typed_source"/>
+        <Class IRI="#Wittgenstein_source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wittgenstein_source"/>
+        <Class IRI="#Primary_source"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Typed_source"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Point"/>
+        <NamedIndividual IRI="#Locical_analysis_is_essential_to_ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_typed_source"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Paul_Formosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_typed_source"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="#isPartOf"/>
+            <IRI>#Wittgenstein_Ludwig</IRI>
+        </Annotation>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chapter"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#language"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#locigalAnalysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#logical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#sense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#simile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Issue"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_typed_source"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secondary_typed_source"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveWritten"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveWritten"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveWritten"/>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c10"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c2"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c3"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c4"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c5"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c6"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c7"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c8"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics_c9"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveWritten"/>
+        <NamedIndividual IRI="#Paul_Formosa"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c0"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c1"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c2"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c3"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c4"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein_c5"/>
+        <NamedIndividual IRI="#semantic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haveWritten"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#simile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Wittgensteins_Early_Ethical_Thought_c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWrittenBy"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Paul_Formosa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#absolute"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#sense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#language"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#metaphysical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#logical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mentions"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#ethic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#refersTo"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Deirdre_Smith"/>
+        <Literal datatypeIRI="&xsd;integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Janyne_Sattler"/>
+        <Literal datatypeIRI="&xsd;integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Lecture_on_Ethics"/>
+        <Literal datatypeIRI="&xsd;integer">1929</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Moral_Judgments_as_Part_of_What_Ethics_Must_Show"/>
+        <Literal datatypeIRI="&xsd;integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Paul_Formosa"/>
+        <Literal datatypeIRI="&xsd;integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Re-Discovering_Wittgenstein"/>
+        <Literal datatypeIRI="&xsd;integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Wittgenstein_Ludwig"/>
+        <Literal datatypeIRI="&xsd;integer">1929</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"/>
+        <Literal datatypeIRI="&xsd;integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dateFrom"/>
+        <NamedIndividual IRI="#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought"/>
+        <Literal datatypeIRI="&xsd;integer">2007</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#haveWritten"/>
+        <ObjectProperty IRI="#isWrittenBy"/>
+    </InverseObjectProperties>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#mentions"/>
+    </IrreflexiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
