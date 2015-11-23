@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	<script type="application/ld+json" src="markupReDiscoveringWittgenstein.json"></script>
+        <title>Re-Discovering Wittgenstein | Smith | From the ALWS archives: A selection of papers
+            from the International Wittgenstein Symposia in Kirchberg am Wechsel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Re-Discovering Wittgenstein" />
+        <meta name="keywords"
+            content="philosophy; 20th century philosophy; Wittgenstein Ludwig; digital edition; Nachlass; Bergen Electronic Edition; composite photography; computational ontology; literary device" />
+
+
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+        <meta name="DC.Creator.PersonalName" content="Deirdre C.P. Smith" />
+        <meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2014-02-10" />
+        <meta name="DC.Date.modified" scheme="ISO8601" content="2014-02-10" />
+        <meta name="DC.Description" xml:lang="en"
+            content="
+            The Wittgenstein Archives at the University of Bergen (WAB) was established in 1990
+               with the following goals: producing a machine readable version of Wittgenstein?s
+               Nachlass; developing software to assist scholars in locating, viewing and analyzing
+               Nachlass texts; developing registration systems and software to present, work with
+               and analyze original textual sources; and establishing links to international
+               Wittgenstein research and computer programming projects with similar text encoding
+               goals. Both the conception and realization of WAB?s participation in DISCOVERY
+               (Digital Semantic Corpora for Virtual Research in Philosophy) fit with the further
+               development of these initial goals. This paper?s main objective is to present the
+               advantages of DISCOVERY?s semantic approach to texts using examples from Ms. 139a, otherwise
+               known as Wittgenstein?s ?Lecture on <span property="mentions">Ethics</span>?
+         " />
+        <meta name="DC.Format" scheme="IMT" content="application/pdf" />
+        <meta name="DC.Format" scheme="IMT" content="text/html" />
+        <meta name="DC.Identifier" content="2669" />
+        <meta name="DC.Identifier.URI"
+            content="http://wittgensteinrepository.org/agora-alws/article/view/2669" />
+        <meta name="DC.Language" scheme="ISO639-1" content="" />
+        <meta name="DC.Source"
+            content="From the ALWS archives: A selection of papers from the International Wittgenstein Symposia in Kirchberg am Wechsel" />
+        <meta name="DC.Source.Issue" content="" />
+        <meta name="DC.Source.URI" content="http://wittgensteinrepository.org/agora-alws" />
+        <meta name="DC.Source.Volume" content="" />
+        <meta name="DC.Subject" xml:lang="en" content="philosophy" />
+        <meta name="DC.Subject" xml:lang="en" content="20th century philosophy" />
+        <meta name="DC.Subject" xml:lang="en" content="Wittgenstein Ludwig" />
+        <meta name="DC.Subject" xml:lang="en" content="digital edition" />
+        <meta name="DC.Subject" xml:lang="en" content="Nachlass" />
+        <meta name="DC.Subject" xml:lang="en" content="Bergen Electronic Edition" />
+        <meta name="DC.Subject" xml:lang="en" content="composite photography" />
+        <meta name="DC.Subject" xml:lang="en" content="computational ontology" />
+        <meta name="DC.Subject" xml:lang="en" content="literary device" />
+        <meta name="DC.Title" content="Re-Discovering Wittgenstein" />
+        <meta name="DC.Type" content="Text.Serial.Journal" />
+        <meta name="DC.Type.articleType" content="Articles" />
+        <meta name="gs_meta_revision" content="1.1" />
+        <meta name="citation_journal_title"
+            content="From the ALWS archives: A selection of papers from the International Wittgenstein Symposia in Kirchberg am Wechsel" />
+        <meta name="citation_author" content="Deirdre C.P. Smith" />
+
+        <meta name="citation_title" content="Re-Discovering Wittgenstein" />
+
+
+        <meta name="citation_volume" content="" />
+        <meta name="citation_issue" content="" />
+        <meta name="citation_abstract_html_url"
+            content="http://wittgensteinrepository.org/agora-alws/article/view/2669" />
+        <meta name="citation_keywords" xml:lang="en" content="philosophy" />
+        <meta name="citation_keywords" xml:lang="en" content="20th century philosophy" />
+        <meta name="citation_keywords" xml:lang="en" content="Wittgenstein Ludwig" />
+        <meta name="citation_keywords" xml:lang="en" content="digital edition" />
+        <meta name="citation_keywords" xml:lang="en" content="Nachlass" />
+        <meta name="citation_keywords" xml:lang="en" content="Bergen Electronic Edition" />
+        <meta name="citation_keywords" xml:lang="en" content="composite photography" />
+        <meta name="citation_keywords" xml:lang="en" content="computational ontology" />
+        <meta name="citation_keywords" xml:lang="en" content="literary device" />
+        <meta name="citation_pdf_url"
+            content="http://wittgensteinrepository.org/agora-alws/article/download/2669/3061" />
+        <meta name="citation_fulltext_html_url"
+            content="http://wittgensteinrepository.org/agora-alws/article/view/2669/3062" />
+
+
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/lib/pkp/styles/pkp.css"
+            type="text/css" />
+        <link rel="stylesheet"
+            href="http://wittgensteinrepository.org/ojs/lib/pkp/styles/common.css" type="text/css" />
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/common.css"
+            type="text/css" />
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/articleView.css"
+            type="text/css" />
+        <link rel="stylesheet"
+            href="http://wittgensteinrepository.org/ojs/lib/pkp/styles/rtEmbedded.css"
+            type="text/css" />
+
+
+
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/sidebar.css"
+            type="text/css" />
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/leftSidebar.css"
+            type="text/css" />
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/rightSidebar.css"
+            type="text/css" />
+        <link rel="stylesheet" href="http://wittgensteinrepository.org/ojs/styles/bothSidebars.css"
+            type="text/css" />
+        <link rel="stylesheet"
+            href="http://wittgensteinrepository.org/ojs/public/journals/13/journalStyleSheet.css"
+            type="text/css" />
+
+        <!-- Base Jquery -->
+        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='http://wittgensteinrepository.org/ojs/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='http://wittgensteinrepository.org/ojs/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.2");
+			google.load("jqueryui", "1.8.1");
+		}
+	</script>
+
+        <script type="text/javascript" src="http://wittgensteinrepository.org/ojs/lib/pkp/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="http://wittgensteinrepository.org/ojs/lib/pkp/js/fontController.js"></script>
+        <script type="text/javascript">
+		$(function(){
+			fontSize("#sizer", "body", 9, 16, 32, "/ojs"); // Initialize the font sizer
+		});
+	</script>
+
+
+        <script type="text/javascript" src="http://wittgensteinrepository.org/ojs/lib/pkp/js/general.js"></script>
+
+        <script language="javascript" type="text/javascript" src="http://wittgensteinrepository.org/ojs/js/articleView.js"></script>
+        <script language="javascript" type="text/javascript" src="http://wittgensteinrepository.org/ojs/js/pdfobject.js"></script>
+
+    </head>
+    <body vocab="Source/Secondary_source/Secondary_type_source#" resource="Re-Discovering_Wittgenstein">
+        <div id="container">
+            <div id="fade" class="black_overlay"></div>
+            <div id="header">
+                <div id="headerTitle">
+                    <h1> From the ALWS archives: A selection of papers from the International
+                        Wittgenstein Symposia in Kirchberg am Wechsel </h1>
+                </div>
+            </div>
+            <div id="body">
+                <div id="sidebar">
+                    <div id="leftSidebar">
+                        <div class="block" id="sidebarKeywordCloud">
+                            <span class="blockTitle">Keywords</span>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=20th%20century%20philosophy"
+                                    ><span style="font-size: 171.99248120301%;">20th century
+                                    philosophy</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=Nachlass"
+                                    ><span style="font-size: 78.759398496241%;">Nachlass</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=Wittgenstein%20Ludwig"
+                                    ><span style="font-size: 162.03007518797%;">Wittgenstein
+                                    Ludwig</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=action"
+                                    ><span style="font-size: 76.315789473684%;">action</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=aesthetics"
+                                    ><span style="font-size: 77.631578947368%;"
+                                >aesthetics</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=aspect%20seeing"
+                                    ><span style="font-size: 76.127819548872%;">aspect
+                                seeing</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=certainty"
+                                    ><span style="font-size: 76.691729323308%;">certainty</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=context"
+                                    ><span style="font-size: 76.315789473684%;">context</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=culture"
+                                    ><span style="font-size: 77.067669172932%;">culture</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=description"
+                                    ><span style="font-size: 76.691729323308%;"
+                                >description</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=epistemology"
+                                    ><span style="font-size: 76.503759398496%;"
+                                >epistemology</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=ethics"
+                                    ><span style="font-size: 80.075187969925%;">ethics</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=experience"
+                                    ><span style="font-size: 77.443609022556%;"
+                                >experience</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=explanation"
+                                    ><span style="font-size: 76.691729323308%;"
+                                >explanation</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=expression"
+                                    ><span style="font-size: 76.315789473684%;"
+                                >expression</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=form%20of%20life"
+                                    ><span style="font-size: 79.135338345865%;">form of
+                                life</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=grammar"
+                                    ><span style="font-size: 78.383458646617%;">grammar</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=intentionality"
+                                    ><span style="font-size: 77.81954887218%;"
+                                >intentionality</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=interpretation"
+                                    ><span style="font-size: 76.691729323308%;"
+                                    >interpretation</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=knowledge"
+                                    ><span style="font-size: 76.87969924812%;">knowledge</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=language"
+                                    ><span style="font-size: 80.263157894737%;">language</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=language%20game"
+                                    ><span style="font-size: 80.639097744361%;">language
+                                game</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=logic"
+                                    ><span style="font-size: 77.067669172932%;">logic</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=meaning"
+                                    ><span style="font-size: 81.578947368421%;">meaning</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=metaphor"
+                                    ><span style="font-size: 76.87969924812%;">metaphor</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=metaphysics"
+                                    ><span style="font-size: 77.81954887218%;"
+                                >metaphysics</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=method"
+                                    ><span style="font-size: 77.067669172932%;">method</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=mind"
+                                    ><span style="font-size: 76.315789473684%;">mind</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=mind%20vs%20body"
+                                    ><span style="font-size: 76.503759398496%;">mind vs
+                                body</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=naturalism"
+                                    ><span style="font-size: 76.691729323308%;"
+                                >naturalism</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=nonsense"
+                                    ><span style="font-size: 76.503759398496%;">nonsense</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=object"
+                                    ><span style="font-size: 77.255639097744%;">object</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=ontology"
+                                    ><span style="font-size: 77.255639097744%;">ontology</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=perspicuous%20presentation"
+                                    ><span style="font-size: 76.87969924812%;">perspicuous
+                                    presentation</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=phenomenology"
+                                    ><span style="font-size: 77.067669172932%;"
+                                >phenomenology</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=philosophy"
+                                    ><span style="font-size: 174.81203007519%;"
+                                >philosophy</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=philosophy%20of%20language"
+                                    ><span style="font-size: 76.691729323308%;">philosophy of
+                                    language</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=picture"
+                                    ><span style="font-size: 78.571428571429%;">picture</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=picture%20theory"
+                                    ><span style="font-size: 78.383458646617%;">picture
+                                    theory</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=private%20language"
+                                    ><span style="font-size: 77.067669172932%;">private
+                                    language</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=realism"
+                                    ><span style="font-size: 76.691729323308%;">realism</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=reference"
+                                    ><span style="font-size: 77.067669172932%;">reference</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=religion"
+                                    ><span style="font-size: 76.87969924812%;">religion</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=rule-following"
+                                    ><span style="font-size: 78.947368421053%;"
+                                    >rule-following</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=sense"
+                                    ><span style="font-size: 76.691729323308%;">sense</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=skepticism"
+                                    ><span style="font-size: 76.503759398496%;"
+                                >skepticism</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=therapy"
+                                    ><span style="font-size: 77.067669172932%;">therapy</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=thinking"
+                                    ><span style="font-size: 76.315789473684%;">thinking</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=time"
+                                    ><span style="font-size: 76.87969924812%;">time</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=truth"
+                                    ><span style="font-size: 76.691729323308%;">truth</span></a>
+                            <a
+                                href="http://wittgensteinrepository.org/agora-alws/search/advancedResults?subject=understanding"
+                                    ><span style="font-size: 76.87969924812%;"
+                                >understanding</span></a>
+                        </div>
+                        <div class="block" id="sidebarRTArticleTools">
+                            <span class="blockTitle">Article Tools</span>
+                            <div class="articleToolItem">
+                                <img
+                                    src="http://wittgensteinrepository.org/ojs/plugins/blocks/readingTools/icons/printArticle.png"
+                                    class="articleToolIcon" />
+                                <a
+                                    href="javascript:openRTWindow('http://wittgensteinrepository.org/agora-alws/rt/printerFriendly/2669/3062');"
+                                    >Print this article</a>
+                            </div>
+                            <div class="articleToolItem">
+                                <img
+                                    src="http://wittgensteinrepository.org/ojs/plugins/blocks/readingTools/icons/suppFiles.png"
+                                    class="articleToolIcon" />
+                                <a
+                                    href="javascript:openRTWindow('http://wittgensteinrepository.org/agora-alws/rt/suppFiles/2669/3062');"
+                                    >Supplementary files</a><br />
+                            </div>
+                            <div class="articleToolItem">
+                                <img
+                                    src="http://wittgensteinrepository.org/ojs/plugins/blocks/readingTools/icons/findingReferences.png"
+                                    class="articleToolIcon" />
+                                <a
+                                    href="javascript:openRTWindow('http://wittgensteinrepository.org/agora-alws/rt/findingReferences/2669/3062');"
+                                    >Finding References</a>
+                            </div>
+                            <div class="articleToolItem">
+                                <img
+                                    src="http://wittgensteinrepository.org/ojs/plugins/blocks/readingTools/icons/editorialPolicies.png"
+                                    class="articleToolIcon" />
+                                <a
+                                    href="http://wittgensteinrepository.org/agora-alws/about/editorialPolicies#peerReviewProcess"
+                                    target="_parent">Review policy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rightSidebar">
+                        <div class="block" id="sidebarDevelopedBy">
+                            <a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy"
+                                >Open Journal Systems</a>
+                        </div>
+                        <div class="block" id="sidebarNavigation">
+                            <span class="blockTitle">Journal Content</span>
+                            <span class="blockSubtitle">Search</span>
+                            <form method="post"
+                                action="http://wittgensteinrepository.org/agora-alws/search/results">
+                                <table>
+                                    <tr>
+                                        <td><input type="text" id="query" name="query" size="15"
+                                                maxlength="255" value="" class="textField" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="searchField" size="1" class="selectMenu">
+                                                <option label="All" value="">All</option>
+                                                <option label="Authors" value="1">Authors</option>
+                                                <option label="Title" value="2">Title</option>
+                                                <option label="Abstract" value="4">Abstract</option>
+                                                <option label="Index terms" value="120">Index
+                                                  terms</option>
+                                                <option label="Full Text" value="128">Full
+                                                  Text</option>
+
+                                            </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="submit" value="Search" class="button"
+                                             /></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            <br />
+                            <span class="blockSubtitle">Browse</span>
+                            <ul>
+                                <li><a
+                                        href="http://wittgensteinrepository.org/agora-alws/issue/archive"
+                                        >By Issue</a></li>
+                                <li><a
+                                        href="http://wittgensteinrepository.org/agora-alws/search/authors"
+                                        >By Author</a></li>
+                                <li><a
+                                        href="http://wittgensteinrepository.org/agora-alws/search/titles"
+                                        >By Title</a></li>
+                                <li><a href="http://wittgensteinrepository.org/">Other
+                                    Journals</a></li>
+                            </ul>
+                        </div>
+                        <div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+                            <span class="blockTitle">Font Size</span>
+                            <div id="sizer"></div>
+                        </div>
+                        <br />
+                    </div>
+                </div>
+                <div id="main">
+                    <div id="navbar">
+                        <ul class="menu">
+                            <li id="home"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/index"
+                                    >Home</a></li>
+                            <li id="about"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/about"
+                                    >About</a></li>
+
+                            <li id="login"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/login">Log
+                                    In</a></li>
+                            <li id="register"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/user/register"
+                                    >Register</a></li>
+                            <li id="search"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/search"
+                                    >Search</a></li>
+
+                            <li id="current"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/issue/current"
+                                    >Current</a></li>
+                            <li id="archives"><a
+                                    href="http://wittgensteinrepository.org/agora-alws/issue/archive"
+                                    >Archives</a></li>
+
+
+
+                        </ul>
+                    </div>
+                    <div id="breadcrumb">
+                        <a href="http://wittgensteinrepository.org/agora-alws/index"
+                            target="_parent">Home</a> &gt; <a
+                            href="http://wittgensteinrepository.org/agora-alws/issue/view/181"
+                            target="_parent">(2007) Papers of the 30th IWS (eds. H. Hrachovec, A.
+                            Pichler, J. Wang)</a> &gt; <a
+                            href="http://wittgensteinrepository.org/agora-alws/article/view/2669/3062"
+                            class="current" target="_parent">Smith</a>
+                    </div>
+                    <div id="content">
+                        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+                            <head>
+                                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                                <!--THIS FILE IS GENERATED FROM AN XML MASTER. DO NOT EDIT (5)-->
+                                <title>Re-Discovering Wittgenstein</title>
+                                <meta name="author" content="Deirdre C.P. Smith" />
+                                <meta name="generator"
+                                    content="Text Encoding Initiative Consortium XSLT stylesheets" />
+                                <meta name="DC.Title" content="Re-Discovering Wittgenstein" />
+                                <meta name="DC.Type" content="Text" />
+                                <meta name="DC.Format" content="text/html" />
+                                <link rel="stylesheet" media="print" type="text/css"
+                                    href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css" />
+                                <style type="text/css" title="inline_css">
+                                    /*
+** Copyright 2011 TEI Consortium
+
+
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the
+Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+*/
+                                    
+                                    
+                                    /* main layout */
+                                    
+                                    body.simple {
+                                        color : #000000;
+                                        background-color : #FFFFFF;
+                                        margin : 10pt;
+                                    }
+                                    
+                                    body {
+                                        color : #000000;
+                                        background-color : #FFFFFF;
+                                        margin : 10pt;
+                                        padding : 0;
+                                        font-family : Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    body.pagetable {
+                                        color : #000000;
+                                        background-color : #FFFFFF;
+                                    }
+                                    
+                                    /* 3 columns allowed for, or just a right and left */
+                                    #col1 {
+                                        width : 20%;
+                                        background : #FFFFFF;
+                                        margin : 0;
+                                        margin-top : 10px;
+                                        color : #000066;
+                                        padding : 5px;
+                                        position : absolute;
+                                        float : left;
+                                        border-style : solid;
+                                        border-width : 1px;
+                                        border-color : red;
+                                    }
+                                    
+                                    #col2 {
+                                        background : #FFFFFF;
+                                        color : #333333;
+                                        border-style : solid;
+                                        border-width : 1px;
+                                        border-color : #000000;
+                                        margin : 0;
+                                        margin-top : 10px;
+                                        padding : 5px;
+                                        left : 22%;
+                                        width : 51%;
+                                        position : absolute;
+                                    }
+                                    
+                                    #col3 {
+                                        width : 24%;
+                                        left : 75%;
+                                        color : #000066;
+                                        background : #FFFFFF;
+                                        border-style : solid;
+                                        border-width : 1px;
+                                        border-color : red;
+                                        margin : 0;
+                                        margin-top : 10px;
+                                        padding : 5px;
+                                        position : absolute;
+                                        float : right;
+                                    }
+                                    
+                                    #lh-col {
+                                        width : 16%;
+                                        color : #000000;
+                                        margin-top : 2pt;
+                                        margin-right : 10pt;
+                                        padding : 5px;
+                                        background-color : #FFFFFF;
+                                        float : left;
+                                        font-weight : normal;
+                                    }
+                                    
+                                    #rh-col {
+                                        background-color : #FFFFFF;
+                                        color : #333333;
+                                        margin : 2pt;
+                                        padding : 5px;
+                                        float : right;
+                                        width : 75%;
+                                        font-weight : normal;
+                                    }
+                                    
+                                    
+                                    /* now the layers of the header */
+                                    
+                                    /* the main title */
+                                    div.stdheader {
+                                        border-bottom : 1pt solid black;
+                                    }
+                                    
+                                    #hdr {
+                                        width : auto;
+                                        margin : 0;
+                                        background-repeat : no-repeat;
+                                        overflow : inherit;
+                                    }
+                                    
+                                    /* a navigation bar */
+                                    #hdr2 {
+                                        width : auto;
+                                        color : #000000;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                        background-color : #99CCFF;
+                                        padding-left : 5px;
+                                        padding-bottom : 2px;
+                                        padding-top : 2px;
+                                        padding-right : 5px;
+                                    }
+                                    
+                                    /* a breadcrumb trail */
+                                    #hdr3 {
+                                        width : auto;
+                                        color : #000000;
+                                        background-color : #AD06BC;
+                                        padding-left : 5px;
+                                        padding-bottom : 2px;
+                                        padding-top : 2px;
+                                        padding-right : 5px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                        font-size : smaller;
+                                    }
+                                    
+                                    .bannerright {
+                                        float : right;
+                                        margin-right : 5px;
+                                        color : #FFFFFF;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-size : 0.8em;
+                                        font-weight : bold;
+                                        text-decoration : none;
+                                    }
+                                    
+                                    /* section headings */
+                                    #hdr h1 {
+                                        color : red;
+                                    }
+                                    h1 {
+                                        font-weight : bold;
+                                        font-size : 2em;
+                                        line-height : 34pt;
+                                    }
+                                    h1.center {
+                                        font-weight : bold;
+                                        font-size : 2em;
+                                        line-height : 34pt;
+                                        text-align : center;
+                                    }
+                                    
+                                    
+                                    h2 {
+                                        font-size : larger;
+                                        line-height : 20pt;
+                                        margin-top : 18pt;
+                                        font-weight : bold;
+                                    }
+                                    h2.center {
+                                        font-size : larger;
+                                        line-height : 20pt;
+                                        margin-top : 18pt;
+                                        font-weight : bold;
+                                        text-align : center;
+                                    
+                                    }
+                                    
+                                    h3 {
+                                        font-size : larger;
+                                        line-height : 18pt;
+                                        font-weight : bold;
+                                        font-style : italic;
+                                    }
+                                    h3.center {
+                                        font-size : larger;
+                                        line-height : 18pt;
+                                        font-weight : bold;
+                                        font-style : italic;
+                                        text-align : center;
+                                    }
+                                    
+                                    
+                                    h1.maintitle {
+                                        margin-left : 100px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                        bottom : 5px;
+                                    }
+                                    
+                                    h1.title {
+                                        margin-left : 100px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                        bottom : 5px;
+                                    }
+                                    
+                                    h2.institution {
+                                        margin-left : 100px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    h2.department {
+                                        margin-left : 100px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    h2.subtitle {
+                                        margin-left : 100px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                    }
+                                    
+                                    .footer {
+                                        text-align : center;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-size : 0.8em;
+                                    }
+                                    
+                                    
+                                    
+                                    /* components of the breadcrumb trail */
+                                    a.breadcrumb {
+                                        color : #FFFFFF;
+                                        text-decoration : none;
+                                        padding-right : 5px;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                        font-size : 0.8em;
+                                    }
+                                    
+                                    ul.breadcrumb
+                                    {
+                                        display : inline;
+                                        font-size : 1.1em;
+                                    }
+                                    
+                                    li.breadcrumb:before:"?";
+                                    li.breadcrumb-first:before:"?";
+                                    li.breadcrumb
+                                    {
+                                        padding-left : 12px;
+                                        padding-right : 5px;
+                                        display : inline;
+                                        color : #000000;
+                                    }
+                                    li.breadcrumb-first
+                                    {
+                                        padding-left : 12px;
+                                        padding-right : 5px;
+                                        display : inline;
+                                        color : #000000;
+                                    }
+                                    
+                                    div.breadcrumb {
+                                        display : inline;
+                                    }
+                                    
+                                    .skiplinks {
+                                        font-family : arial, sans-serif;
+                                        color : #FFFFFF;
+                                        font-weight : bold;
+                                        font-size : 0.8em;
+                                        text-decoration : none;
+                                        padding-right : 15px;
+                                    }
+                                    
+                                    .tocontent {
+                                        color : #000066;
+                                        display : none;
+                                    }
+                                    
+                                    .hide {
+                                        display : none;
+                                    }
+                                    
+                                    .framestdlink {
+                                        color : red;
+                                        font-size : smaller;
+                                        font-weight : bold;
+                                    }
+                                    
+                                    a:hover
+                                    {
+                                        text-decoration : underline;
+                                    }
+                                    
+                                    a.navbar:link
+                                    {
+                                        color : #FFFFFF;
+                                        text-decoration : none;
+                                    }
+                                    
+                                    a.navbar:visited
+                                    {
+                                        color : #FFFFFF;
+                                        text-decoration : none;
+                                    }
+                                    
+                                    a.navbar:hover {
+                                        color : #FFFFFF;
+                                        text-decoration : underline;
+                                    }
+                                    
+                                    
+                                    /* for use when making pages using a table */
+                                    td.hdr2 {
+                                        color : #000000;
+                                        background-color : #99CCFF;
+                                    }
+                                    td.hdr3 {
+                                        background-color : #AD06BC;
+                                        border : 1pt solid #000000;
+                                    }
+                                    
+                                    td.sidetext {
+                                        border-right : 1pt solid #000000;
+                                    }
+                                    td.maintext p {
+                                        font-family : Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    td.maintext {
+                                        background-color : #FFFFFF;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        color : #000000;
+                                        padding-left : 6pt;
+                                        padding-right : 6pt;
+                                    }
+                                    
+                                    table.wovenodd td,
+                                    p.wovenodd {
+                                        background-color : #FFFFFF;
+                                    }
+                                    
+                                    /* an inner &lt;text&gt;, eg inside a &lt;q&gt; */
+                                    div.innertext {
+                                        margin : 6pt;
+                                        border : 1pt solid red;
+                                    }
+                                    /* literal code */
+                                    
+                                    div.cdata {
+                                        white-space : pre;
+                                        clear : both;
+                                    }
+                                    
+                                    pre,
+                                    div.pre,
+                                    div.pre_eg,
+                                    pre.eg,
+                                    div.eg {
+                                        clear : both;
+                                        margin-top : 1em;
+                                        margin-bottom : 1em;
+                                        border-top-width : 4px;
+                                        border-bottom-width : 4px;
+                                        border-left-width : 2px;
+                                        border-right-width : 2px;
+                                        border-style : solid;
+                                        padding-top : 10px;
+                                        padding-right : 10px;
+                                        padding-bottom : 10px;
+                                        padding-left : 10px;
+                                        color : #000000;
+                                        line-height : 1.1em;
+                                        font-family : monospace;
+                                        font-size : 10pt;
+                                        white-space : pre;
+                                    }
+                                    
+                                    div.egXML_valid {
+                                        background-color : #f7f9f6;
+                                        border-color : #c5d8bb;
+                                    }
+                                    div.egXML_feasible {
+                                        background-color : #fff9f3;
+                                        border-color : #ffe1ad;
+                                    }
+                                    div.egXML_invalid {
+                                        border-color : #ffe7e8;
+                                        background-color : #fdbbac;
+                                    }
+                                    
+                                    
+                                    /* table of contents */
+                                    ul.toc {
+                                        list-style : none;
+                                    }
+                                    li.toc {
+                                        list-style : none;
+                                    }
+                                    
+                                    /* table of contents links */
+                                    
+                                    a.inlinetoc:link,
+                                    a.inlinetoc:visited
+                                    {
+                                        color : #7A7A7A;
+                                        font-size : smaller;
+                                        text-decoration : none;
+                                    }
+                                    
+                                    a.inlinetoc-this:visited,
+                                    a.inlinetoc-this:link
+                                    {
+                                        font-size : smaller;
+                                        color : #000000;
+                                        font-weight : bold;
+                                        text-decoration : underline;
+                                    }
+                                    
+                                    a.inlinetoc-sub:visited,
+                                    a.inlinetoc-sub:link
+                                    {
+                                        text-decoration : none;
+                                        color : #000000;
+                                        font-weight : normal;
+                                        font-size : smaller;
+                                    }
+                                    
+                                    span.toclist {
+                                        font-size : smaller;
+                                        font-family : Arial, Helvetica, sans-serif;
+                                        font-weight : bold;
+                                    }
+                                    
+                                    p.toclist0 {
+                                        margin-left : 0.5em;
+                                        margin-top : 1pt;
+                                        margin-bottom : 3pt;
+                                        text-indent : -0.5em;
+                                        font-size : small;
+                                    }
+                                    
+                                    p.toclist1 {
+                                        margin-left : 1em;
+                                        margin-top : 1pt;
+                                        margin-bottom : 2pt;
+                                        text-indent : -0.7em;
+                                        font-size : small;
+                                    }
+                                    
+                                    p.toclist2 {
+                                        margin-left : 1.5em;
+                                        text-indent : -1em;
+                                        font-size : small;
+                                    }
+                                    
+                                    p.toclist3 {
+                                        margin-left : 2em;
+                                        text-indent : -1.5em;
+                                        font-size : small;
+                                    }
+                                    
+                                    span.toclist-this {
+                                        color : red;
+                                    }
+                                    
+                                    a.toclist:visited,
+                                    a.toclist:link
+                                    {
+                                        font-weight : bold;
+                                        color : #000000;
+                                        text-decoration : none;
+                                    }
+                                    
+                                    
+                                    
+                                    /* notes */
+                                    div.noteHeading {
+                                        margin-top : 9pt;
+                                        border : 0;
+                                        border-top : 1pt;
+                                        border-style : solid;
+                                        padding-top : 6pt;
+                                        font-size : larger;
+                                        font-weight : bold;
+                                    }
+                                    div.noteBody {
+                                        display : inline;
+                                    }
+                                    
+                                    div.note {
+                                        margin-left : 1em;
+                                        margin-bottom : 4pt;
+                                        text-indent : -1em;
+                                    }
+                                    
+                                    span.noteLabel {
+                                        font-style : italic;
+                                    }
+                                    span.noteNumber:before {
+                                        content : "[";
+                                    }
+                                    span.noteNumber:after {
+                                        content : "]. ";
+                                    }
+                                    
+                                    /* images */
+                                    img.display {
+                                        margin-top : 10pt;
+                                        margin-bottom : 10pt;
+                                        display : block;
+                                    }
+                                    .caption {
+                                        font-style : italic;
+                                        display : block;
+                                        text-align : center;
+                                    }
+                                    
+                                    .floatimage {
+                                        float : centre;
+                                        margin-right : 6px;
+                                        vertical-align : top;
+                                    }
+                                    /* specialized divs */
+                                    div.letter {
+                                        margin-left : 2em;
+                                        margin-right : 2em;
+                                        margin-top : 6pt;
+                                        margin-bottom : 6pt;
+                                        border-top : 1pt solid green;
+                                        border-bottom : 1pt solid green;
+                                    }
+                                    /* title page */
+                                    div.titlePage,
+                                    div.titlepage {
+                                        border-top : 2pt solid #000000;
+                                        border-bottom : 2pt solid #000000;
+                                        padding-top : 6pt;
+                                        padding-bottom : 6pt;
+                                        font-size : larger;
+                                        text-align : center;
+                                    }
+                                    .docImprint {
+                                        display : block;
+                                        font-style : italic;
+                                    }
+                                    .docDate {
+                                        font-style : italic;
+                                    }
+                                    .docTitle {
+                                        display : block;
+                                        margin-top : 6pt;
+                                        font-weight : bold;
+                                        margin-bottom : 18pt;
+                                    }
+                                    .docAuthor {
+                                        font-style : italic;
+                                    }
+                                    
+                                    .byline {
+                                        display : block;
+                                    }
+                                    
+                                    div.dateline {
+                                        text-align : right;
+                                    }
+                                    /* verse */
+                                    div.lg {
+                                        margin-left : 10px;
+                                        margin-bottom : 10px;
+                                    }
+                                    
+                                    div.centerbold {
+                                        text-align : center;
+                                        font-weight : bold;
+                                    }
+                                    div.center {
+                                        text-align : center;
+                                    }
+                                    div.right {
+                                        text-align : right;
+                                    }
+                                    div.left {
+                                        text-align : left;
+                                    }
+                                    div.signed {
+                                        text-align : left;
+                                    }
+                                    div.l {
+                                        text-align : left;
+                                        margin-left : 1em;
+                                    }
+                                    div.epigraph {
+                                        text-align : right;
+                                        margin : 20pt;
+                                    }
+                                    div.numbering {
+                                        float : left;
+                                        font-size : smaller;
+                                        width : 2em;
+                                    }
+                                    
+                                    div.linenumber {
+                                    }
+                                    
+                                    p.center {
+                                        text-align : center;
+                                    }
+                                    p.right {
+                                        text-align : right;
+                                    }
+                                    p.left {
+                                        text-align : left;
+                                    }
+                                    
+                                    .indent {
+                                        text-indent : 2em;
+                                    }
+                                    
+                                    div.indent {
+                                        text-indent : 0em;
+                                    }
+                                    
+                                    
+                                    div.indent1 {
+                                        margin-left : 1em;
+                                    }
+                                    div.indent2 {
+                                        margin-left : 2em;
+                                    }
+                                    div.indent3 {
+                                        margin-left : 3em;
+                                    }
+                                    div.indent4 {
+                                        margin-left : 4em;
+                                    }
+                                    div.indent5 {
+                                        margin-left : 5em;
+                                    }
+                                    div.indent6 {
+                                        margin-left : 6em;
+                                    }
+                                    /* misc inline*/
+                                    
+                                    span.foreign {
+                                        font-style : italic;
+                                    }
+                                    
+                                    .plain {
+                                        text-decoration : none;
+                                    }
+                                    
+                                    p.box {
+                                        border : 1pt solid #000000;
+                                    }
+                                    
+                                    .small {
+                                        font-size : small;
+                                    }
+                                    
+                                    td.label {
+                                        font-weight : bold;
+                                        background-color : #AAAAAA;
+                                    }
+                                    tr.label td {
+                                        font-weight : bold;
+                                        background-color : #AAAAAA;
+                                    }
+                                    
+                                    span.label {
+                                        font-weight : bold;
+                                    }
+                                    
+                                    h5 {
+                                        font-size : 100%;
+                                    }
+                                    h6 {
+                                        font-size : 100%;
+                                    }
+                                    
+                                    div.tocFront {
+                                        border-bottom : 1pt solid #000000;
+                                    }
+                                    div.tocBack {
+                                        border-bottom : 1pt solid #000000;
+                                    }
+                                    div.tocBody {
+                                        border-bottom : 1pt solid #000000;
+                                    }
+                                    
+                                    ul.listBibl {
+                                        list-style : none;
+                                        list-item-style : none;
+                                    }
+                                    
+                                    ol.listBibl {
+                                        list-style : none;
+                                        list-item-style : none;
+                                    }
+                                    
+                                    /* a listBibl rend='labels' */
+                                    div.listBibl {
+                                        margin-top : 6pt;
+                                        margin-bottom : 6pt;
+                                    }
+                                    div.bibl {
+                                        margin-left : 0.5em;
+                                        text-indent : -0.5em;
+                                    }
+                                    div.biblfree {
+                                        font-size : smaller;
+                                        margin-left : 0.5em;
+                                        text-indent : -0.5em;
+                                        margin-bottom : 6pt;
+                                    }
+                                    
+                                    span.biblLabel {
+                                        font-weight : bold;
+                                        margin-right : 1em;
+                                    }
+                                    
+                                    span.corr {
+                                        color : red;
+                                    }
+                                    
+                                    /* a &lt;bibl&gt; inside a &lt;cit&gt; */
+                                    div.citbibl:before {
+                                        content : "(";
+                                    }
+                                    div.citbibl:after {
+                                        content : ")";
+                                    }
+                                    div.citbibl {
+                                        text-align : right;
+                                        font-size : smaller;
+                                    }
+                                    /* a &lt;quote&gt; inside a &lt;cit&gt; */
+                                    div.citquote {
+                                        margin-left : 10pt;
+                                        margin-right : 10pt;
+                                    }
+                                    
+                                    /* gloss lists with bold labels */
+                                    dt {
+                                        font-weight : bold;
+                                    }
+                                    
+                                    span.indent {
+                                        display : block;
+                                        font-size : smaller;
+                                        text-indent : 5mm;
+                                    }
+                                    
+                                    /* generic &lt;hi&gt; */
+                                    span.hi {
+                                        font-weight : bold;
+                                    }
+                                    
+                                    /* from drama */
+                                    /* speeches in drama */
+                                    div.p-in-sp {
+                                        margin-left : 1em;
+                                    }
+                                    div.sp {
+                                        margin-top : 4pt;
+                                    }
+                                    div.spProse {
+                                        text-indent : -1em;
+                                        margin-left : 1em;
+                                    }
+                                    div.speaker {
+                                        font-weight : bold;
+                                    }
+                                    span.speaker {
+                                        font-style : italic;
+                                    }
+                                    
+                                    span.actor {
+                                        font-style : italic;
+                                    }
+                                    span.camera {
+                                        font-style : italic;
+                                    }
+                                    span.caption {
+                                        font-style : italic;
+                                    }
+                                    span.right {
+                                        display : block;
+                                        text-align : right;
+                                    }
+                                    span.role {
+                                        font-style : italic;
+                                    }
+                                    span.set {
+                                        font-style : italic;
+                                    }
+                                    span.sound {
+                                        font-style : italic;
+                                    }
+                                    span.stage {
+                                        font-style : italic;
+                                    }
+                                    span.tech {
+                                        font-style : italic;
+                                    }
+                                    span.view {
+                                        font-style : italic;
+                                    }
+                                    span.mentioned {
+                                        font-style : italic;
+                                    }
+                                    span.nextLink {
+                                        font-style : italic;
+                                    }
+                                    span.previousLink {
+                                        font-style : italic;
+                                    }
+                                    span.upLink {
+                                        font-style : italic;
+                                    }
+                                    p,
+                                    div.p {
+                                        margin-top : 0.3em;
+                                    }
+                                    /* bibl */
+                                    span.titlem {
+                                        font-style : italic;
+                                    }
+                                    span.titlej {
+                                        font-style : italic;
+                                    }
+                                    span.titleu {
+                                    }
+                                    span.titles {
+                                    }
+                                    
+                                    span.notemargin {
+                                        display : block;
+                                        font-size : smaller;
+                                        clear : right;
+                                        padding : 4pt;
+                                        font-style : italic;
+                                        width : 10%;
+                                        float : right;
+                                        border : solid green 1pt;
+                                        margin : 6pt;
+                                    }
+                                    
+                                    div.floatingText_back {
+                                        border-top : solid black 1pt;
+                                    }
+                                    div.floatingText_front {
+                                        border-top : solid black 1pt;
+                                    }
+                                    div.floatingText {
+                                        margin : 6pt;
+                                        border : solid black 1pt;
+                                    }
+                                    span.pagebreak {
+                                        background-color : green;
+                                        font-weight : bold;
+                                    }
+                                    div.pagebreak {
+                                        display : block;
+                                        border : solid red 1pt;
+                                    }
+                                    span.element {
+                                        font-weight : bold;
+                                        color : black;
+                                    }
+                                    span.unclear {
+                                        font-weight : bold;
+                                    }
+                                    span.wordtypeNN,
+                                    span.wordtypeNNS {
+                                        color : green;
+                                    }
+                                    span.wordtypeVVD,
+                                    span.wordtypeVVN,
+                                    span.wordtypeVVN,
+                                    span.wordtypeVVZ,
+                                    span.wordtypeVVG,
+                                    span.wordtypeVV {
+                                        color : red;
+                                    }
+                                    
+                                    li.headless {
+                                        display : none;
+                                    }
+                                    span.hi {
+                                        font-weight : bold;
+                                    }
+                                    
+                                    div.footer {
+                                        border-top : solid black 1pt;
+                                    }
+                                    
+                                    div.stdfooter {
+                                        border-top : solid black 1pt;
+                                        border-bottom : solid black 1pt;
+                                    }
+                                    
+                                    div.altfigure {
+                                        border-top : solid black 1pt;
+                                        border-bottom : solid black 1pt;
+                                    }
+                                    
+                                    table {
+                                        empty-cells : show;
+                                    }
+                                    
+                                    table.table,
+                                    table.table tr,
+                                    table.table td {
+                                        border : solid black 1pt;
+                                    }
+                                    table.table td {
+                                        padding : 1ex 1ex 1ex 1ex;
+                                    }
+                                    p.mainAuthor {
+                                        display : block;
+                                        margin : 1ex 0ex 1ex 0ex;
+                                    }
+                                    p.mainEditor {
+                                        display : block;
+                                        margin : 1ex 0ex 1ex 0ex;
+                                    }
+                                    
+                                    /* odd-specific styles removed */
+                                    
+                                    /* A -Z Styles From http://www.smileycat.com/miaow/archives/000211.php -styling the a to z */
+                                    #azindex {
+                                        background-color : #ddd;
+                                        color : inherit;
+                                        display : block;
+                                        margin : 0px;
+                                        float : left;
+                                        padding : 5px;
+                                        width : 75%;
+                                        border : 1px solid #999;
+                                    }
+                                    #azindex p {
+                                        color : #fff;
+                                        background-color : #000060;
+                                        padding : 4px;
+                                        display : block;
+                                        margin : 0;
+                                        border-bottom : 1px solid #333;
+                                        font-size : 0.95em;
+                                    }
+                                    .index {
+                                        font : bold 100% Verdana, Helvetica, sans-serif;
+                                        margin : 0;
+                                        padding : 0;
+                                    }
+                                    .index li {
+                                        float : left;
+                                        height : 1.5em;
+                                        list-style-type : none;
+                                        margin : 0.35em 0.15em;
+                                        padding : 0;
+                                        width : 1.5em;
+                                    }
+                                    .index a:link,
+                                    .index a:visited {
+                                        background : #fff;
+                                        color : navy;
+                                        display : block;
+                                        height : 1.5em;
+                                        padding : 0.37em 0 0 0;
+                                        text-align : center;
+                                        text-decoration : none;
+                                        width : 1.5em;
+                                        border : 1px solid #999;
+                                    }
+                                    li.showall,
+                                    li.showall a:visited,
+                                    li.showall a:link {
+                                        width : 10em;
+                                    }
+                                    * html .index li {
+                                        margin : 0.2em 0.2em;
+                                    }
+                                    ul.index li a:hover {
+                                        background-color : #93D1E4;
+                                        color : #fff;
+                                        text-decoration : underline;
+                                    }
+                                    div.atozwrapper {
+                                        float : left;
+                                        width : 70%;
+                                    }
+                                    div.atoz {
+                                        clear : left;
+                                        float : left;
+                                    }
+                                    #byMod {
+                                        margin-top : 12px;
+                                        clear : left;
+                                    }
+                                    ul.atoz {
+                                        list-style : none;
+                                        text-align : left;
+                                        margin : 2px;
+                                        padding : 2px;
+                                        background-color : #eef;
+                                        color : inherit;
+                                    }
+                                    .atoz li {
+                                        padding : 0px;
+                                        display : inline;
+                                    }
+                                    span.listhead {
+                                        margin-top : 0em;
+                                        margin-right : 1em;
+                                        padding-left : 3px;
+                                        padding-right : 3px;
+                                        color : #000066;
+                                        font-weight : bold;
+                                        font-size : large;
+                                    }
+                                    /* End of A - Z styles */
+                                    div.specChildren {
+                                        margin : 0em;
+                                        padding : 0em;
+                                    }
+                                    span.specChildModule {
+                                        font-weight : bold;
+                                    }
+                                    div.specChild {
+                                        margin-bottom : 4pt;
+                                        margin-left : 25px;
+                                        text-indent : -30px;
+                                    }
+                                    span.emptySlash:after {
+                                        content : "/";
+                                    }
+                                    /* status notation */
+                                    .status_deprecated:after {
+                                        content : " (deprecated)";
+                                        color : red;
+                                    }
+                                    .status_changed:after {
+                                        content : " (changed)";
+                                        color : blue;
+                                    }
+                                    .status_unstable:after {
+                                        content : " (unstable)";
+                                        color : orange;
+                                    }
+                                    .status_deprecated {
+                                        border : solid red 1pt;
+                                    }
+                                    .status_changed {
+                                        border : solid blue 1pt;
+                                    }
+                                    .status_unstable {
+                                        border : solid orange 1pt;
+                                    }
+                                    /* &lt;hi&gt; rend values */
+                                    span.typewriter {
+                                        font-family : monospace;
+                                    }
+                                    span.normalweight {
+                                    }
+                                    span.smallcaps {
+                                        font-variant : small-caps;
+                                    }
+                                    span.capsall {
+                                        text-transform : uppercase;
+                                    }
+                                    span.strikethrough {
+                                        text-decoration : line-through;
+                                    }
+                                    span.strikedoublethrough {
+                                        text-decoration : line-through;
+                                    }
+                                    span.underline {
+                                        text-decoration : underline;
+                                    }
+                                    span.underwavyline {
+                                        text-decoration-line : underline;
+                                        text-decoration-style : wavy;
+                                    }
+                                    span.underdoubleline {
+                                        text-decoration : underline;
+                                    }
+                                    span.superscript {
+                                        vertical-align : top;
+                                        font-size : 70%;
+                                    }
+                                    span.subscript {
+                                        vertical-align : bottom;
+                                        font-size : 70%;
+                                    }
+                                    
+                                    span.numberParagraph:before {
+                                        content : "[";
+                                    }
+                                    span.numberParagraph:after {
+                                        content : "] ";
+                                    }
+                                    span.numberParagraph {
+                                        font-size : smaller;
+                                        color : grey;
+                                    }
+                                    
+                                    
+                                    blockquote.block {
+                                        display : block;
+                                        font-size : smaller;
+                                    }
+                                    
+                                    table td {
+                                        border : solid black 1pt;
+                                        padding : 1ex 1ex 1ex 1ex;
+                                        /*text-align: center;*/
+                                        font-size : medium;
+                                    }
+                                    
+                                    table {
+                                        /* trick to centre table: may not work with IE */
+                                        margin-left : auto;
+                                        margin-right : auto;
+                                    }
+                                    
+                                    
+                                    span.centre {
+                                        display : block;
+                                        text-align : center;
+                                    }
+                                    
+                                    p.centre {
+                                        display : block;
+                                        text-align : center;
+                                    }
+                                    
+                                    
+                                    
+                                    .centre .center {
+                                        display : block;
+                                        text-align : center;
+                                    }</style>
+                            </head>
+                            <body class="simple" id="TOP">
+                              <div resource="uri/#refersTo" typeof="Lecture_on_Ethics"> 
+                             <div class="titlePage"><div
+                                        class="docTitle"><div class="titlePart">Re-Discovering
+                               Wittgenstein</div></div></div><div class="byline"><span
+                               class="docAuthor"><span property="Author">Deirdre Christine Page Smith</span>,
+                                        Bergen, Norway</div></div><div class="abstract"><h2><span
+                                           <div resource="Re-Discovering_Wittgenstein_c0" typeof="Re-Discovering_Wittgenstein_c0"> 
+                               			class="head">Abstract</span></h2><p
+                                        id="index.xml-p-d29e96">
+                               			 <div resource="Re-Discovering_Wittgenstein_c0" typeof="Re-Discovering_Wittgenstein_c0"> 
+                               			The Wittgenstein Archives at the
+                                        University of Bergen (WAB) was established in 1990 with the
+                                        following goals: producing a machine readable version of
+                                        Wittgenstein?s Nachlass; developing software to assist
+                                        scholars in locating, viewing and analyzing Nachlass texts;
+                                        developing registration systems and software to present,
+                                        work with and analyze original textual sources; and
+                                        establishing links to international Wittgenstein research
+                                        and computer programming projects with similar text encoding
+                                        goals. Both the conception and realization of WAB?s
+                                        participation in DISCOVERY (Digital Semantic Corpora for
+                                        Virtual Research in Philosophy) fit with the further
+                                        development of these initial goals. This paper?s main
+                                        objective is to present the advantages of DISCOVERY?s
+                               <span property="mentions">semantic</span> approach to texts using examples from <a
+                                            class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms.
+                                   139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <a
+                                            class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n"
+                                                ><span property="refersTo">Lecture_on_Ethics</span>?Lecture on <span property="mentions">Ethics</span>?</a></p></div><h2>Table of
+                                    contents</h2><ul class="toc toc_front"></ul><ul
+                                    class="toc toc_body">
+                                    <li class="toc"><a class="toc toc_0"
+                                            href="#index.xml-body.1_div.1">Compiling a
+                                            machine-readable edition of Wittgenstein?s
+                                        Nachlass</a></li>
+                                    <li class="toc"><a class="toc toc_0"
+                                            href="#index.xml-body.1_div.2">Bergen Electronic Edition
+                                            (BEE)</a></li>
+                                    <li class="toc"><a class="toc toc_0"
+                                            href="#index.xml-body.1_div.3">DISCOVERY</a></li>
+                                    <li class="toc"><a class="toc toc_0"
+                                            href="#index.xml-body.1_div.4">Re-discovering
+                                            Wittgenstein</a></li>
+                                </ul><ul class="toc toc_back">
+                                    <li class="toc"><a class="toc toc_0"
+                                            href="#index.xml-back.1_div.1">Literature</a></li>
+                                </ul><p id="index.xml-p-d29e104">
+                                </div>
+                               		<div resource="Re-Discovering_Wittgenstein_c1" typeof="Re-Discovering_Wittgenstein_c1">
+                               		The Wittgenstein Archives at the
+                                    University of Bergen (WAB) opened its doors June 1st 1990 with
+                                    several goals: producing a machine readable version of
+                                    Wittgenstein?s <span style="font-style: italic">Nachlass</span>;
+                                    developing software to assist scholars in locating, viewing and
+                                    analyzing <span style="font-style: italic">Nachlass</span>
+                                    texts; developing registration systems and software to present,
+                                    work with and analyze original textual sources; and establishing
+                                    links to international Wittgenstein research and computer
+                                    programming projects with similar text encoding goals. (WAB
+                                    report 1991) Both the conception and realization of WAB?s
+                                    participation in the DISCOVERY project (Digital <span property="mentions">Semantic</span> Corpora
+                                    for Virtual Research in Philosophy) fit with WAB?s initial
+                                    goals. This paper originates in The Wittgenstein Archives at the
+                                    University of Bergen?s (WAB) participation in the eContent+
+                                    funded DISCOVERY project. Although I begin with a brief history
+                                    of WAB?s work, my main objective is to present the advantages of
+                                    DISCOVERY?s <span property="mentions">semantic</span> approach to texts using examples from <a
+                                        class="link_ref"
+                                        href="http://www.wittgensteinsource.org/Ms-139a_n">Ms.
+                                        139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <span
+                                            class="ref"><span property="refersTo">Lecture_on_Ethics</span>?Lecture on <span property="mentions">Ethics</span>)?</span>.<span
+                                        id="Note1_return"><a class="notelink"
+                                            title="For a discussion of difficulties met in its implementation see ?Wittgenstein registrieren? by Wilhelm Kr?ger in this ?"
+                                            href="#Note1"><sup>1</sup></a></span></p><div
+                                    class="teidiv0" id="index.xml-body.1_div.1"><h2><span
+                                            class="head">Compiling a machine-readable edition of
+                                            Wittgenstein?s Nachlass</span></h2><p
+                                        id="index.xml-p-d29e130">
+                               		
+                               			Preparing a machine readable
+                                        version of Wittgenstein?s <span style="font-style: italic"
+                                            >Nachlass</span> began in Norway already in 1981 under
+                                        the aegis of The Norwegian Wittgenstein Project (Det norske
+                                        Wittgensteinprosjektet) which was a cooperative endeavour
+                                        between the philosophy departments at Norway?s four main
+                                        universities in Oslo, Bergen, Trondheim and Troms?.
+                                        Unfortunately, in the late 1980?s the materials it prepared
+                                        could not be made publicly available since the rights to
+                                        them were disputed, making both gaining permission for
+                                        distribution and acquiring money to finance the project
+                                        difficult.</p><p style="text-indent: 5em"
+                                        id="index.xml-p-d29e135">Auspiciously, in the early 1990?s,
+                                        WAB attained both permission from Wittgenstein?s literary
+                                        trustees (G.E.M. Anscombe, Anthony Kenny, Peter Winch and
+                                        Georg Henrik von Wright) and funding. Software prototypes
+                                        developed by, and some 3,200 pages transcribed by, the
+                                        Norwegian Wittgenstein Project formed the foundation for
+                                        WAB?s initial work. WAB?s first goal was to transcribe 7,500
+                                        pages of the 20,000 pages of Wittgenstein?s Nachlass and
+                                        complete the most important elements of the software needed
+                                        to view them. What is special about this transcription and
+                                        the challenge to those developing software for the
+                                        machine-readable edition, was to reproduce these pages as
+                                        truly as possible. This meant capturing in a digital format
+                                        the many cross outs, deletions, rewordings, cross
+                                        references, etc., found in Wittgenstein?s Nachlass. To this
+                                        purpose, WAB developed a standard for registering these
+                                        aspects of Wittgenstein?s texts which formed the basis for
+                                        software allowing the kind of versatile representation the
+                                        project demanded</p><p style="text-indent: 5em"
+                                        id="index.xml-p-d29e137">
+                              </div>
+                               <div resource="Re-Discovering_Wittgenstein_c2" typeof="Re-Discovering_Wittgenstein_c2">
+                               WAB has cooperated closely with the
+                                        Text Encoding Initiative (TEI) which works toward
+                                        establishing guidelines for text encoding as well as the
+                                        interchange of electronic texts. TEI was established in 1988
+                                        and its initial set of Guidelines (TEI P1) issued in 1990.
+                                        Since then, WAB has been actively involved in and followed
+                                        the development of TEI guidelines. However, since TEI
+                                        guidelines were based on a standard (SGML Standard
+                               Generalized Markup <span property="mentions">Language</span>) which restricted encoding
+                                        possibilities, WAB chose not to follow them. Instead, WAB
+                                        further developed the MECS (Multi-Element Code System ?
+                                        developed by Claus Huitfelt) coding system into MECS-WIT,
+                                        which better suited its needs,.</p></div><div
+                                    class="teidiv0" id="index.xml-body.1_div.2"><h2><span
+                                            class="head"><span class="ref">Bergen Electronic Edition
+                                                (BEE)</span></span></h2><p id="index.xml-p-d29e143"
+                          ></div>
+                      <div resource="Re-Discovering_Wittgenstein_c3" typeof="Re-Discovering_Wittgenstein_c3">
+                      In 1992, WAB and Oxford University Press agreed to utilize
+                                        the machine-readable version along with electronic
+                                        facsimiles of the original manuscripts and typescripts
+                                        toward publishing Wittgenstein?s <span
+                                            style="font-style: italic">Nachlass</span> on CDROM. In
+                                        2000, a 6 CD version of the <span class="ref">BEE</span> was
+                                        released. In addition to containing complete sources and
+                                        drafts (over 50 different manuscripts) for Wittgenstein?s
+                                        published works, the <span class="ref">BEE</span> includes
+                                        previously unpublished or simply unknown material.</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e154">By
+                                        presenting the <span style="font-style: italic"
+                                            >Nachlass</span> in what is termed a ?combination of
+                                        editions? (cf. Pichler and Haugen 2005), the <span
+                                            class="ref">BEE</span>?s comprehensiveness, however,
+                                        extends beyond merely collecting Wittgenstein?s body of work
+                                        into one edition. This is accomplished by providing <span
+                          style="font-style: italic">Nachlass</span></div> 
+                      					<div resource="Re-Discovering_Wittgenstein_c3" typeof="Re-Discovering_Wittgenstein_c3">
+                      					texts in two
+                                        separate but interlinked versions: diplomatic and
+                                        normalized. The former remains true to the original
+                                        manuscript and typescript versions, preserving all
+                                        deletions, over writings, spelling errors and word
+                                        substitutions. The latter shows editorial corrections, while
+                                        deleted and overwritten texts are omitted and only the last
+                                        alternative of two different readings is rendered (earlier
+                                        alternatives can be viewed upon request). Having these two
+                                        versions at hand gives the reader insight into
+                                        Wittgenstein?s writing process, and, in doing so, also an
+                                        enhanced understanding of his thought?s development. The
+                                        same flexibility which allows for interlinked diplomatic and
+                                        normalized versions enables specialized searches within
+                                        manuscript sections, whole manuscripts and between
+                                        manuscript groups as well as date ranges, specified
+                      <span property="mentions">languages</span>, graphic material and mathematic notation. And it
+                                        is in these latter features we get a taste of the advantages
+                                        of a <span property="mentions">semantic</span> approach. (cf. Pichler 2002)</p></div><div
+                                    class="teidiv0" id="index.xml-body.1_div.3"><h2><span
+                                            class="head">DISCOVERY</span></h2><p
+                  id="index.xml-p-d29e168"></div>
+                      					<div resource="Re-Discovering_Wittgenstein_c4" typeof="Re-Discovering_Wittgenstein_c4">
+                      					After a period engaged in several
+                                        EU projects promoting international research and virtual
+                                        infrastructures for collaborative research and e-learning,
+                                        WAB co-initiated DISCOVERY in 2005 with a host of European
+                                        partners. DISCOVERY?s goal is to construct a <span
+                                            style="font-style: italic">Philospace</span>, a virtual
+                                        meeting place for philosophical collaboration and access to
+                                        philosophical texts and media. These texts and media, called
+                                            <span style="font-style: italic">Philosource</span>, are
+                                        a collection of primary philosophical texts from the
+                                        Pre-Socratics, to 16th to 18th century philosophical and
+                                        scientific texts from Descartes, Bruno, Spinoza, Leibniz,
+                                        Vico, Baumgarten and Kant; a variety of primary material
+                                        (manuscripts, published works, etc.) from Nietzsche and
+                                        Wittgenstein and is rounded out by 300 video/sound segments
+                                        from leading contemporary philosophers such as Gadamer,
+                                        Deleuze, Vattami et. al. (see: <a class="link_ref"
+                                            href="http://www.discovery-project.eu/index.html"
+                                            >http://www.discovery-project.eu/index.html</a>).</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e180">WABs
+                                        contribution to DISCOVERY consists of 5,000 pages covering
+                                            <span class="ref">?The Big Typescript?</span>
+                    	                    (1929-1934), the <span class="ref">Brown Book</span> complex
+                               (1934-36), the <span class="ref">?Lecture on </span property="mentions">Ethics?</span</span>
+              1929) and <span class="ref"></div>?Notes on
+                      					<div resource="Re-Discovering_Wittgenstein_c4" typeof="Re-Discovering_Wittgenstein_c4">
+                      					<span property="logic">Logic</span></span>' (1913).
+                                        What is exciting about the range of texts which WAB is thus
+                                        preparing for DISCOVERY, is that they capture the
+                                        consolidation of Wittgenstein?s thought between his middle
+                                        and late (<span style="font-style: italic"><span class="ref"
+                                                >Philosophical Investigations</span></span>) period.
+                                        Similarly to the <span class="ref">BEE</span>, the above
+                                            <span style="font-style: italic">Nachlass</span> texts
+                                        will be available in interlinked layers with a study layer
+                                        added in between (as currently defined this shows editorial
+                                        interventions regarding spelling, grammar and deletions as
+                                        well as substitutions and cross outs where they make sense
+                                        within the context of a sentence). What is new in DISCOVERY
+                                        is threefold: these texts will be available for free, text
+                                        encoding has been migrated from MECS-WIT to TEI/XML, and,
+                                        most interestingly for the purposes of this paper, they will
+                                        be encoded with semantic tags.</p><p
+          style="text-indent: 5em" id="index.xml-p-d29e205"></div>
+                              			<div resource="Re-Discovering_Wittgenstein_c4" typeof="Re-Discovering_Wittgenstein_c4">
+                              			Unlike
+                                        general text searches, <span property="mentions">semantic</span>
+                              			labelling helps researchers
+                                        locate passages where the term or concept for which they
+                                        search is discussed, but not literally used. One can of
+                                        course try to approximate this process by using synonyms or
+                                        alternative wordings, but many occurrences will still be
+                                        left out. A somewhat different case would be someone
+                                        searching for examples of Wittgenstein?s use of rhetorical
+                                        questions. With a regular general text search, one might
+                                        attempt locating these by searching for a question mark
+                                        followed by a quotation mark. This would, however, work
+                                        neither in most standard search functions (where both ???
+                                        and ? ? ? are operators) nor the <span class="ref"
+                                            >BEE</span>. Even considering the <span class="ref"
+                                            >BEE</span>?s increased flexibility, only an individual
+                                        with specialized knowledge of the system and its parameters
+                                        can achieve such a search. Even assuming one has this
+                                        specialist knowledge, the search would still not help
+                                        distinguish between rhetorical questions and e.g. direct
+                                        quotations or dialogue. Yet another case would be someone
+                                        looking for instances of metaphor, simile or other literary
+                                        devices. Although one might locate some of these passages
+                                        simply by searching for these terms and hoping that they are
+                                        followed by actual examples, far more will remain hidden.
+                                        Semantic labelling thus clearly represents an advance in
+                                        WAB?s goal of developing software to assist scholars in
+                                        locating, viewing and analyzing <span
+                                            style="font-style: italic">Nachlass</span>
+                                    texts.</p></div><div class="teidiv0" id="index.xml-body.1_div.4"
+                                            ><h2><span class="head">Re-discovering
+                                            Wittgenstein</span></h2><p id="index.xml-p-d29e219">I
+                                        would like to illustrate these differences using a concrete
+                                        example from <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n"
+                                            >MS139a<span property="refersTo">Lecture_on_Ethics</span></a>, otherwise known as Wittgenstein?s <span
+                                            class="ref">?Lecture on Ethics?</span>. Although all
+                                        versions of <span class="ref">?Lecture on Ethics?</span>, <a
+                                            class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ts-207_n">Ts
+                                            207</a> (published in <span style="font-style: italic"
+                                            >Philosophical Occasions</span> and <span class="ref"
+                                            >BEE</span>) and <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Mss
+                                                139a<span property="refersTo">Lecture_on_Ethics</span></a><span class="ref">-b</span> (published in <span
+                                            class="ref">BEE</span>), will be available in
+                                        DISCOVERY?s <span style="font-style: italic"
+                                            >Philospace</span> as a <span style="font-style: italic"
+                                            >Philosource</span>, it is <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+                                                139a<span property="refersTo">Lecture_on_Ethics</span></a> which concerns us here.</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e258">One of the
+                                        first problems <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> offers for semantic labelling is its lack of
+                                        paragraph divisions (this holds for <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ts-207_n">Ts
+                                            207<span property="refersTo">Lecture_on_Ethics</span></a> and <span class="ref">Ms 139b</span>). Such
+                                        labelling requires units of text which are restricted in
+                                        length, both to make labelling more exact and to assist
+                                        users in locating labels. For this reason, it was necessary
+                                        to divide <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> into smaller units. This was done according to
+                                        thematic units (standard English paragraphs) which are well
+                                        suited for semantic labelling.</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e272">Already in
+                                        the <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org//Ms-139a,1r[2]et1v[1]et2r[1]_n"
+                                        
+  ></div>
+              						    <div resource="Re-Discovering_Wittgenstein_c5" typeof="Re-Discovering_Wittgenstein_c5">
+              							second paragraph of Ms 139a</a> we find examples where
+                                        semantic tags are superior to simple word searches. In the
+                                        second sentence we find a seemingly innocent word in two
+                                        forms: ?communicate? and ?communicating?. This is not
+                                        exactly a word which has inspired much in the way of
+                                        secondary literature. However, when we look at the way it is
+                                        used, it can function as a synonym for other words such as
+                                        ?<span property="mentions">language</span>)? and ?explanation?, which might be of higher
+                                        conceptual relevance for Wittgenstein researches as well as
+                                        other philosophers who are have a more general interest in
+                                        Wittgenstein?s philosophy. Yet if we take Wittgenstein?s use
+                                        of communication in this paragraph as a whole, we find
+                                        rather that it falls under two major themes found in the
+                                        paragraph: ?difficulties met communicating thoughts
+                                        generally and philosophical explanations specifically? and
+                                        ?What are the boundaries of communication/<span property="mentions">language</span>??. And
+                                        with this we can begin to answer a question readers may
+                                        already have asked themselves, ?What is the difference
+                                        between semantic labelling and making a good index?? A good
+                                        index might next to the entry ?communication? write ?cf.
+              explanation, <span property="mentions">language</span>? and vice versa. This practice enables
+                                        the user to find occurrences of words, their synonyms and
+                                        phrases containing both, however it does not make sense of
+                                        the use of words or phrases. What semantic labelling does
+                                        share with making indexes is to identify in advance what
+                                        will be of interest for a reader and to facilitate its
+                                        location. <span property="mentions">Semantic</span> labelling does not stop here. It goes
+                                        further to abstract an overall meaning from each paragraph
+                                        based on these individual words and phrases. E.g.
+                                        ?difficulties met communicating thoughts generally and
+                                        philosophical explanations specifically? is based on more
+                                        literal examples found in the text: being a non-native
+                                        <span property="mentions">language</span> speaker, saying something which comes from the
+                                        heart, showing the listener both the road of an explanation
+                                        and the end/goal to which it leads.</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e277">The
+                                        example I have just described falls under the first,
+                                        Content, of six categories with which we are currently
+                                        working. The other categories are: Form, Text Exegesis,
+                                        History of Philosophy, Philosophical Slogans and Comments.
+                                        As with my first example, even though we may find examples
+                                        of all of these in a good index, they would neither be
+                                        listed by category nor allow the kind of ?sense making?
+                                        semantic labels do. If we look again at <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a,1r[2]et1v[1]et2r[1]_n"
+                                            >paragraph two of Ms 139a</a>, we find several metaphors
+                                        (talking from the heart, a hearer seeing the road a
+                                        philosophical explanation goes down and the end too which it
+                                        leads) and two rhetorical questions which all would be
+                                        difficult to locate in a general index or word search. In
+                                        our current scheme these would fall under the category Form.
+                                        Other current candidates falling under Form are: definition,
+                                        example, analogy and simile. Regarding our third and fourth
+                                        categories, Text exegesis and History of Philosophy we find
+                                        that Wittgenstein?s use of ?human being? (<span
+                                            class="quote">?a human being who tries to tell other
+                                            human beings something which some of them might possibly
+                                            find useful?</span>) can be traced to a discussion with
+                                        Maurice Drury around 1930 referring to William James as a
+                                        ?human person?, and Wittgenstein responding, <span
+                                            class="quote">?That is what makes him a good
+                                            philosopher; he was a real human being.? (Goodman, p.
+                                            37)</span> Here we have reference to both a conversation
+                                        contemporary to <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+  139a<span property="refersTo">Lecture_on_Ethics</span></a></div> 
+              							<div resource="Re-Discovering_Wittgenstein_c5" typeof="Re-Discovering_Wittgenstein_c5">
+              							as well as to a figure in the history of
+                                        philosophy whose work influenced Wittgenstein throughout his
+                                        life. Although there is not much in the way of Philosophical
+                                        Slogans found in this particular paragraph, we find many in
+              the next: <span property="mentions">Ethics</span>, Aesthetics, <span property="mentions">value</span> and good. Perhaps more
+                                        so than the Content category, this one most resembles an
+                                        index. Yet here again we find the possibility of listing a
+                                        slogan which, although not literally used, imbues a whole
+                                        paragraph. The final category with which we are currently
+                                        working, Comment, is a space where further reflections on
+                                        the contents of a paragraph as well as clarifications
+                                        regarding the labelling process itself can be placed. If we
+                                        return to the <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a,1r[2]et1v[1]et2r[1]_n"
+                                            >second paragraph of Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a>, this category could be
+                                        used to go into more explanatory detail regarding
+                                        Wittgenstein?s use of the road metaphor as something which
+                                        returns in several guises in his later philosophy: a rule
+                                        standing as a signpost <span class="ref"><span
+                                                style="font-style: italic">Philosophical
+                                                Investigations</span> (PI) ?85</span>, perspicuous
+                                        representation <span class="ref">PI ?122</span>, method of
+                                        projection <span class="ref">PI ?139</span>, <span
+                                            class="ref">141</span>, <span class="ref">366</span>, as
+                                        well in <span class="ref">PI ?426</span> where he mentions
+                                        God and uses other religious analogies to capture something
+                                        to which we do not have access.</p><p
+                                        style="text-indent: 5em" id="index.xml-p-d29e318">In the
+                                        context of <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+                                            139a<span property="refersTo">Lecture_on_Ethics</span></a> it becomes evident early on both how well the
+                                        actual process of semantic labelling fits with important
+                                        aspects of Wittgenstein?s philosophy, but also some dangers
+                                        it might pose. On <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a,2r[3]et2v[1]_n"
+                                            >p. 4 of Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a> Wittgenstein uses Francis Galton
+                                        and composite photography as an example of the effect he
+                                        would like to achieve by using synonyms to help communicate
+                                        his thoughts on the lecture?s theme, <span property="mentions">Ethics</span>. There is a
+                                        tension in both the example of Galton, <a class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+139a<span property="refersTo">Lecture_on_Ethics</span></a></div>
+              							<div resource="Re-Discovering_Wittgenstein_c5" typeof="Re-Discovering_Wittgenstein_c5">
+              							as a whole as well as Wittgenstein?s philosophy
+                                        more generally regarding the use of examples both to point
+                                        to a common thread as well as to illustrate the difficultly
+              of showing something essential to all. (cf. ?<span property="mentions">Ethics</span>,
+                                       <span property="mentions">Language</span> and the Development of Wittgenstein?s Thought in <a
+                                            class="link_ref"
+                                            href="http://www.wittgensteinsource.org/Ms-139a_n">Ms
+                                           139a<span property="refersTo">Lecture_on_Ethics</span></a>? in this volume) Like Galton?s layering of
+                                        imagines one on top of the other to form a composite, the
+                                        application of semantic labelling to a work offers different
+                                        views depending on which layers make up the composite.
+                                        Although this may increase our understanding of a work, we
+                                        (both encoders and users) must not mistake it for a final
+                                        statement about a work, see the composite as an image of
+                                        something real in the sense of a fact of the matter.
+                                        Although Galton failed through composite photography to show
+                                        common types of human constitutions (illness, criminality)
+                                        he did succeed in showing that fingerprints are unique.<span
+                                            id="Note2_return"><a class="notelink"
+                                                title="I would like to thank WAB director Alois Pichler and Wilhelm Kr?ger for discussion and comments on drafts of this ?"
+                                                href="#Note2"><sup>?</sup></a></span></p></div><div
+                                    class="Literature" id="index.xml-back.1_div.1"><h2><span
+                                            class="head">Literature</span></h2><ol class="listBibl">
+                                        <li id="index.xml-bibl-d29e339"><div class="biblfree">1991
+                                                The Wittgenstein Archives at the University of
+                                                Bergen: Background, Project Plan, and Annual Report
+                                                1990, Bergen: Working Papers from the Wittgenstein
+                                                Archives at the University of Bergen No.
+                                            2.</div></li>
+                                        <li id="index.xml-bibl-d29e341"><div class="biblfree"
+                                            ></div></li>
+                                        <li id="index.xml-bibl-d29e342"><div class="biblfree"
+                                                >Goodman, Russell 2004 <span
+                                                  style="font-style: italic">Wittgenstein and
+                                                  William James</span>, Cambridge: Cambridge
+                                                University Press.</div></li>
+                                        <li id="index.xml-bibl-d29e347"><div class="biblfree"
+                                                >Pichler, A. and O.E. Haugen 2005 ?Fra kombinerte
+                                                utgaver til dynamisk utgivelse: Erfaringer fra
+                                                edisjonsfilologisk arbeid med Wittgensteins
+                                                filosofiske skrifter og nordiske middelaldertekster?
+                                                in L?sem?der: Udgavetyper og m?lgrupper, Nordisk
+                                                Netv?rk for Editionsfilologer, Skrifter 6 P. Dahl,
+                                                J. Kondrup andK. Kynde (eds.) Copenhagen: C.A.
+                                                Reitzels Forlag, pp.178-249.</div></li>
+                                        <li id="index.xml-bibl-d29e349"><div class="biblfree"
+                                                >Pichler, Alois 2002 ?Encoding Wittgenstein. Some
+                                                remarks on Wittgenstein's Nachlass, the Bergen
+                                                Electronic Edition, and future electronic publishing
+                                                and networking? In: <span style="font-style: italic"
+                                                  >TRANS. Internet-Zeitschrift f?r
+                                                  Kulturwissenschaften 10/2001ff</span>, Wien:
+                                                Research Institute for Austrian and International
+                                                Literature and Cultural Studies (INST). (<a
+                                                  class="li
+
+nk_ref"
+                                                  href="http://www.inst.at/trans/10Nr/pichler10.htm"
+                                                  >http://www.inst.at/trans/10Nr/pichler10.htm</a>)</div></li>
+                                        <li id="index.xml-bibl-d29e357"><div class="biblfree"
+                                                >Wittgenstein, Ludwig 2000 <a class="link_ref"
+                                                  href="http://www.wittgensteinsource.org/Ms-139a_n"
+                                                    >Ms 139a<span property="refersTo">Lecture_on_Ethics</span></a>: <span class="ref">?Lecture on
+                                                  <span property="mentions">Ethics</span>?</span> in <span style="font-style: italic"
+                                                  >Wittgenstein?s Nachlass: Bergen Electronic
+                                                  Edition</span>, Oxford: Oxford University
+                                                Press.</div></li>
+                                        <li id="index.xml-bibl-d29e368"><div class="biblfree"><span
+                                                  class="ref"></span></div></li>
+                                    </ol></div><!--Notes in [TEI]--><div class="notes"><div
+                                        class="noteHeading">Notes</div><div class="note" id="Note1"
+                                            ><span class="noteLabel">1. </span><div class="noteBody"
+                                            >For a discussion of difficulties met in its
+                                            implementation see <span class="ref">?<span class="corr"
+                                                  >[Wittgenstein registrieren]</span>? by Wilhelm
+                                                Kr?ger in this volume</span>.</div>
+                                        <a class="link_return" title="Go back to text"
+                                            href="#Note1_return">?</a></div><div class="note"
+                                        id="Note2"><span class="noteLabel">? </span><div
+                                            class="noteBody">I would like to thank WAB director
+                                            Alois Pichler and Wilhelm Kr?ger for discussion and
+                                            comments on drafts of this paper.</div>
+                                        <a class="link_return" title="Go back to text"
+                                            href="#Note2_return">?</a></div></div><div
+                                    class="stdfooter"
+><address></div>Deirdre Christine Page Smith.
+	    Date: XML TEI markup by WAB (Rune J. Falch,  Heinz W. Kr?ger,  Alois Pichler,  Deirdre C.P. Smith) 2011-13. Last change 18.12.2013.<br />
+This page is made available under the Creative Commons General Public License "Attribution, Non-Commercial, Share-Alike", version 3.0 (CCPL BY-NC-SA) 
+<!--
+	  Generated from index.xml using XSLT stylesheets version 7.9.0
+
+	       based on http://www.tei-c.org/Stylesheets/
+	       on 2014-02-03T17:31:12Z.
+	       SAXON PE 9.3.0.4.
+		 --></address></div></body>
+                        </html>
+                        <div class="separator"></div>
+                        <h3>Refbacks</h3>
+                        <ul class="plain">
+                            <li>There are currently no refbacks.</li>
+                        </ul>
+                    </div><!-- content -->
+                </div><!-- main -->
+            </div><!-- body -->
+        </div>
+        <!-- container -->
+    </body>
+</html>

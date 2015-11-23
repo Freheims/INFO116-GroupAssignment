@@ -1,0 +1,869 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://uib.no/INFO116/wittgenstein> .
+
+<http://uib.no/INFO116/wittgenstein> rdf:type :Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://www.w3.org/2002/07/owl#isPartOf
+
+:isPartOf rdf:type :AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.w3.org/2002/07/owl#Name
+
+:Name rdf:type :ObjectProperty .
+
+
+
+###  http://www.w3.org/2002/07/owl#contains
+
+:contains rdf:type :ObjectProperty .
+
+
+
+###  http://www.w3.org/2002/07/owl#haveWritten
+
+:haveWritten rdf:type :ObjectProperty .
+
+
+
+###  http://www.w3.org/2002/07/owl#isWrittenBy
+
+:isWrittenBy rdf:type :ObjectProperty ;
+             
+             :inverseOf :haveWritten .
+
+
+
+###  http://www.w3.org/2002/07/owl#mentions
+
+:mentions rdf:type :IrreflexiveProperty ,
+                   :ObjectProperty .
+
+
+
+###  http://www.w3.org/2002/07/owl#refersTo
+
+:refersTo rdf:type :ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.w3.org/2002/07/owl#dateFrom
+
+:dateFrom rdf:type :DatatypeProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.w3.org/2002/07/owl#Absolute
+
+:Absolute rdf:type :Class ;
+          
+          rdfs:subClassOf :Philosophy_of_language .
+
+
+
+###  http://www.w3.org/2002/07/owl#Argument
+
+:Argument rdf:type :Class ;
+          
+          rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Attitude
+
+:Attitude rdf:type :Class ;
+          
+          rdfs:subClassOf :Philosophy_of_ethics .
+
+
+
+###  http://www.w3.org/2002/07/owl#Author
+
+:Author rdf:type :Class ;
+        
+        rdfs:subClassOf :Person .
+
+
+
+###  http://www.w3.org/2002/07/owl#Chapter
+
+:Chapter rdf:type :Class ;
+         
+         rdfs:subClassOf :Source .
+
+
+
+###  http://www.w3.org/2002/07/owl#Field
+
+:Field rdf:type :Class ;
+       
+       rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Intension
+
+:Intension rdf:type :Class ;
+           
+           rdfs:subClassOf :Philosophy_of_ethics .
+
+
+
+###  http://www.w3.org/2002/07/owl#Issue
+
+:Issue rdf:type :Class ;
+       
+       rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Person
+
+:Person rdf:type :Class .
+
+
+
+###  http://www.w3.org/2002/07/owl#Perspective
+
+:Perspective rdf:type :Class ;
+             
+             rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Philosophy_of_ethics
+
+:Philosophy_of_ethics rdf:type :Class ;
+                      
+                      rdfs:subClassOf :Field .
+
+
+
+###  http://www.w3.org/2002/07/owl#Philosophy_of_language
+
+:Philosophy_of_language rdf:type :Class ;
+                        
+                        rdfs:subClassOf :Field .
+
+
+
+###  http://www.w3.org/2002/07/owl#Place
+
+:Place rdf:type :Class ;
+       
+       rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Point
+
+:Point rdf:type :Class ;
+       
+       rdfs:subClassOf :Subject .
+
+
+
+###  http://www.w3.org/2002/07/owl#Primary_source
+
+:Primary_source rdf:type :Class ;
+                
+                rdfs:subClassOf :Source .
+
+
+
+###  http://www.w3.org/2002/07/owl#Relative
+
+:Relative rdf:type :Class ;
+          
+          rdfs:subClassOf :Philosophy_of_language .
+
+
+
+###  http://www.w3.org/2002/07/owl#Secondary_source
+
+:Secondary_source rdf:type :Class ;
+                  
+                  rdfs:subClassOf :Source .
+
+
+
+###  http://www.w3.org/2002/07/owl#Secondary_typed_source
+
+:Secondary_typed_source rdf:type :Class ;
+                        
+                        rdfs:subClassOf :Secondary_source .
+
+
+
+###  http://www.w3.org/2002/07/owl#Source
+
+:Source rdf:type :Class .
+
+
+
+###  http://www.w3.org/2002/07/owl#Subject
+
+:Subject rdf:type :Class .
+
+
+
+###  http://www.w3.org/2002/07/owl#Typed_source
+
+:Typed_source rdf:type :Class ;
+              
+              rdfs:subClassOf :Wittgenstein_source .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgenstein_source
+
+:Wittgenstein_source rdf:type :Class ;
+                     
+                     rdfs:subClassOf :Primary_source .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a
+
+<http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> rdf:type :NamedIndividual ,
+                                                                                                                             :Secondary_typed_source ;
+                                                                                                                    
+                                                                                                                    :dateFrom 2007 ;
+                                                                                                                    
+                                                                                                                    :isWrittenBy :Deirdre_Smith ;
+                                                                                                                    
+                                                                                                                    :contains :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 ;
+                                                                                                                    
+                                                                                                                    :mentions :absolute ,
+                                                                                                                              :ethic ,
+                                                                                                                              :language ,
+                                                                                                                              :sense ,
+                                                                                                                              :simile ,
+                                                                                                                              :value .
+
+
+
+###  http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought
+
+<http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> rdf:type :NamedIndividual ,
+                                                                                                       :Secondary_typed_source ;
+                                                                                              
+                                                                                              :dateFrom 2007 ;
+                                                                                              
+                                                                                              :refersTo :Lecture_on_Ethics ;
+                                                                                              
+                                                                                              :isWrittenBy :Paul_Formosa ;
+                                                                                              
+                                                                                              :contains :Wittgensteins_Early_Ethical_Thought_c1 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c2 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c3 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c4 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c5 ;
+                                                                                              
+                                                                                              :mentions :absolute ,
+                                                                                                        :ethic ,
+                                                                                                        :language ,
+                                                                                                        :logical ,
+                                                                                                        :metaphysical ,
+                                                                                                        :sense ,
+                                                                                                        :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Deirdre_Smith
+
+:Deirdre_Smith rdf:type :Author ,
+                        :NamedIndividual ;
+               
+               :dateFrom 2007 ;
+               
+               :haveWritten <http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> ,
+                            :Re-Discovering_Wittgenstein .
+
+
+
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1
+
+:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 rdf:type :Chapter ,
+                                                                                     :NamedIndividual ;
+                                                                            
+                                                                            :refersTo :Lecture_on_Ethics ;
+                                                                            
+                                                                            :mentions :ethic ,
+                                                                                      :language ,
+                                                                                      :simile .
+
+
+
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2
+
+:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 rdf:type :Chapter ,
+                                                                                     :NamedIndividual ;
+                                                                            
+                                                                            :refersTo :Lecture_on_Ethics ;
+                                                                            
+                                                                            :mentions :ethic ,
+                                                                                      :language ,
+                                                                                      :sense ,
+                                                                                      :simile ,
+                                                                                      :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3
+
+:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 rdf:type :Chapter ,
+                                                                                     :NamedIndividual ;
+                                                                            
+                                                                            :refersTo :Lecture_on_Ethics ;
+                                                                            
+                                                                            :mentions :absolute ,
+                                                                                      :ethic ,
+                                                                                      :sense ,
+                                                                                      :simile ,
+                                                                                      :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4
+
+:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 rdf:type :Chapter ,
+                                                                                     :NamedIndividual ;
+                                                                            
+                                                                            :refersTo :Lecture_on_Ethics ;
+                                                                            
+                                                                            :mentions :absolute ,
+                                                                                      :ethic ,
+                                                                                      :language ,
+                                                                                      :simile ,
+                                                                                      :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Janyne_Sattler
+
+:Janyne_Sattler rdf:type :Author ,
+                         :NamedIndividual ;
+                
+                :dateFrom 2010 ;
+                
+                :haveWritten :Moral_Judgments_as_Part_of_What_Ethics_Must_Show .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics
+
+:Lecture_on_Ethics rdf:type :NamedIndividual ,
+                            :Typed_source ;
+                   
+                   :dateFrom 1929 ;
+                   
+                   :contains :Lecture_on_Ethics_c1 ,
+                             :Lecture_on_Ethics_c10 ,
+                             :Lecture_on_Ethics_c2 ,
+                             :Lecture_on_Ethics_c3 ,
+                             :Lecture_on_Ethics_c4 ,
+                             :Lecture_on_Ethics_c5 ,
+                             :Lecture_on_Ethics_c6 ,
+                             :Lecture_on_Ethics_c7 ,
+                             :Lecture_on_Ethics_c8 ,
+                             :Lecture_on_Ethics_c9 ;
+                   
+                   :isWrittenBy :Wittgenstein_Ludwig ;
+                   
+                   :mentions :absolute ,
+                             :ethic ,
+                             :language ,
+                             :sense ,
+                             :simile ,
+                             :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c1
+
+:Lecture_on_Ethics_c1 rdf:type :Chapter ,
+                               :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c10
+
+:Lecture_on_Ethics_c10 rdf:type :Chapter ,
+                                :NamedIndividual ;
+                       
+                       :mentions :absolute ,
+                                 :ethic ,
+                                 :language ,
+                                 :sense ,
+                                 :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c2
+
+:Lecture_on_Ethics_c2 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :ethic ,
+                                :sense .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c3
+
+:Lecture_on_Ethics_c3 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :ethic ,
+                                :sense ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c4
+
+:Lecture_on_Ethics_c4 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :ethic ,
+                                :logical ,
+                                :sense ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c5
+
+:Lecture_on_Ethics_c5 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :ethic ,
+                                :logical ,
+                                :sense ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c6
+
+:Lecture_on_Ethics_c6 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :ethic ,
+                                :logical ,
+                                :sense ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c7
+
+:Lecture_on_Ethics_c7 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :language ,
+                                :sense .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c8
+
+:Lecture_on_Ethics_c8 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :ethic ,
+                                :language ,
+                                :sense ,
+                                :simile ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c9
+
+:Lecture_on_Ethics_c9 rdf:type :Chapter ,
+                               :NamedIndividual ;
+                      
+                      :mentions :absolute ,
+                                :language ,
+                                :sense ,
+                                :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Locical_analysis_is_essential_to_ethic
+
+:Locical_analysis_is_essential_to_ethic rdf:type :NamedIndividual ,
+                                                 :Point .
+
+
+
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0
+
+:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0 rdf:type :Chapter ,
+                                                              :NamedIndividual ;
+                                                     
+                                                     :mentions :absolute ,
+                                                               :language .
+
+
+
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1
+
+:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1 rdf:type :Chapter ,
+                                                              :NamedIndividual ;
+                                                     
+                                                     :mentions :absolute ,
+                                                               :ethic ,
+                                                               :language ,
+                                                               :logical ,
+                                                               :metaphysical ,
+                                                               :sense ,
+                                                               :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2
+
+:Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2 rdf:type :Chapter ,
+                                                              :NamedIndividual ;
+                                                     
+                                                     :mentions :absolute ,
+                                                               :ethic ,
+                                                               :language ,
+                                                               :logical ,
+                                                               :sense ,
+                                                               :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Moral_Judgments_as_Part_of_What_Ethics_Must_Show
+
+:Moral_Judgments_as_Part_of_What_Ethics_Must_Show rdf:type :NamedIndividual ,
+                                                           :Secondary_typed_source ;
+                                                  
+                                                  :dateFrom 2010 ;
+                                                  
+                                                  :isWrittenBy :Janyne_Sattler ;
+                                                  
+                                                  :refersTo :Lecture_on_Ethics ;
+                                                  
+                                                  :contains :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0 ,
+                                                            :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1 ,
+                                                            :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2 ;
+                                                  
+                                                  :mentions :absolute ,
+                                                            :ethic ,
+                                                            :language ,
+                                                            :logical ,
+                                                            :metaphysical ,
+                                                            :sense ,
+                                                            :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Paul_Formosa
+
+:Paul_Formosa rdf:type :Author ,
+                       :NamedIndividual ;
+              
+              :dateFrom 2007 ;
+              
+              :haveWritten <http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein
+
+:Re-Discovering_Wittgenstein rdf:type :NamedIndividual ,
+                                      :Secondary_typed_source ;
+                             
+                             :dateFrom 2007 ;
+                             
+                             :isWrittenBy :Deirdre_Smith ;
+                             
+                             :refersTo :Lecture_on_Ethics ;
+                             
+                             :contains :Re-Discovering_Wittgenstein_c0 ,
+                                       :Re-Discovering_Wittgenstein_c1 ,
+                                       :Re-Discovering_Wittgenstein_c2 ,
+                                       :Re-Discovering_Wittgenstein_c3 ,
+                                       :Re-Discovering_Wittgenstein_c4 ,
+                                       :Re-Discovering_Wittgenstein_c5 ;
+                             
+                             :mentions :ethic ,
+                                       :language ,
+                                       :semantic ,
+                                       :sense ,
+                                       :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c0
+
+:Re-Discovering_Wittgenstein_c0 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :ethic .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c1
+
+:Re-Discovering_Wittgenstein_c1 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :ethic ,
+                                          :semantic .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c2
+
+:Re-Discovering_Wittgenstein_c2 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :language .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c3
+
+:Re-Discovering_Wittgenstein_c3 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :semantic .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c4
+
+:Re-Discovering_Wittgenstein_c4 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :semantic .
+
+
+
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c5
+
+:Re-Discovering_Wittgenstein_c5 rdf:type :Chapter ,
+                                         :NamedIndividual ;
+                                
+                                :mentions :ethic ,
+                                          :language ,
+                                          :semantic .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgenstein_Ludwig
+
+:Wittgenstein_Ludwig rdf:type :Author ,
+                              :NamedIndividual ;
+                     
+                     :dateFrom 1929 ;
+                     
+                     :haveWritten :Lecture_on_Ethics .
+[ rdf:type :Axiom ;
+  :annotatedProperty rdf:type ;
+  :annotatedTarget :Author ;
+  :annotatedSource :Wittgenstein_Ludwig ;
+  :isPartOf :Wittgenstein_Ludwig
+] .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c1
+
+:Wittgensteins_Early_Ethical_Thought_c1 rdf:type :Chapter ,
+                                                 :NamedIndividual ;
+                                        
+                                        :mentions :ethic ,
+                                                  :language ,
+                                                  :logical ,
+                                                  :metaphysical ,
+                                                  :sense .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c2
+
+:Wittgensteins_Early_Ethical_Thought_c2 rdf:type :Chapter ,
+                                                 :NamedIndividual ;
+                                        
+                                        :mentions :absolute ,
+                                                  :ethic ,
+                                                  :language ,
+                                                  :logical ,
+                                                  :sense .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c3
+
+:Wittgensteins_Early_Ethical_Thought_c3 rdf:type :Chapter ,
+                                                 :NamedIndividual ;
+                                        
+                                        :mentions :absolute ,
+                                                  :ethic ,
+                                                  :logical ,
+                                                  :sense ,
+                                                  :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c4
+
+:Wittgensteins_Early_Ethical_Thought_c4 rdf:type :Chapter ,
+                                                 :NamedIndividual ;
+                                        
+                                        :mentions :ethic ,
+                                                  :logical ,
+                                                  :sense ,
+                                                  :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c5
+
+:Wittgensteins_Early_Ethical_Thought_c5 rdf:type :Chapter ,
+                                                 :NamedIndividual ;
+                                        
+                                        :mentions :ethic ,
+                                                  :sense .
+
+
+
+###  http://www.w3.org/2002/07/owl#absolute
+
+:absolute rdf:type :Issue ,
+                   :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#ethic
+
+:ethic rdf:type :Issue ,
+                :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#language
+
+:language rdf:type :Issue ,
+                   :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#locigalAnalysis
+
+:locigalAnalysis rdf:type :Issue ,
+                          :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#logical
+
+:logical rdf:type :Issue ,
+                  :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#metaphysical
+
+:metaphysical rdf:type :Issue ,
+                       :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#semantic
+
+:semantic rdf:type :Issue ,
+                   :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#sense
+
+:sense rdf:type :Issue ,
+                :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#simile
+
+:simile rdf:type :Issue ,
+                 :NamedIndividual .
+
+
+
+###  http://www.w3.org/2002/07/owl#value
+
+:value rdf:type :Issue ,
+                :NamedIndividual .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+

@@ -1,0 +1,75 @@
+<script type="application/json+ld">
+      {
+          "@context": {
+            "wit": "http://uib.no/INFO116/wittgenstein#",
+            "owl": "http://www.w3.org/2002/07/owl#"
+          }, 
+          "@id": "http://www.sorites.org/Issue_19/formosa.htm",
+       
+         
+          "owl:sameAs": {
+            "@id": "wit:Wittgenstein's Early Ethical Thought"
+          },
+          
+            "wit:contains": [
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c1"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c2"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c3"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c4"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c5"
+            }
+	   
+	
+          
+	  "wit:mentions": [
+            {
+              "@id": "wit:ethic"
+            },
+            {
+              "@id": "wit:sense"
+            },
+            {
+              "@id": "wit:absolute"
+            },
+            {
+              "@id": "wit:language"
+            }
+	    {
+              "@id": "wit:value"
+            },
+            {
+              "@id": "wit:logical"
+            },
+	    {
+              "@id": "wit:metaphysical"
+            },
+          ],
+          "wit:haveWritten": [
+            {
+              "@id": "wit:Ethics, Language and the Development of Wittgenstein’s Thought in Ms 139a"
+            },
+            
+          ],
+          "wit:isWrittenBy": {
+            "@type": "wit:xsd;string",
+            "@value": "Paul_Formosa"
+	  }
+          "wit:refersTo": {
+            "@type": "wit:xsd;string",
+            "@value": "Typed_source-207"
+          },
+	   "wit:dateFrom": {
+            "@type": "wit:xsd;int",
+            "@value": "2007"
+          },
+          
+  </script>

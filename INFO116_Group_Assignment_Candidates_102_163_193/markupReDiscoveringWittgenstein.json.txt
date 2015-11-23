@@ -1,0 +1,75 @@
+<script type="application/json+ld">
+      {
+          "@context": {
+            "wit": "http://uib.no/INFO116/wittgenstein#",
+            "owl": "http://www.w3.org/2002/07/owl#"
+	 }, 
+          "@id": "http://wittgensteinrepository.org/agora-alws/article/view/2669/3062",
+       
+         
+          "owl:sameAs": {
+            "@id": "wit:Re-Discovering_Wittgenstein"
+          },
+
+		"wit:contains": [
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein_c0"
+            },
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein_c1"
+            },
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein_c2"
+            },
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein_c3"
+            },
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein_c4"
+            }
+	    {
+              "@id": "wit:Re-Discovering_Wittgenstein_c5"
+            },
+          
+          ],
+
+ 	"wit:mentions": [
+            {
+              "@id": "wit:ethic"
+            },
+            {
+              "@id": "wit:sense"
+            },
+            
+            {
+              "@id": "wit:semantic"
+            },
+            {
+              "@id": "wit:language"
+            },
+	    {
+              "@id": "wit:value"
+            },
+                        
+          ],
+          "wit:haveWritten": [
+            {
+              "@id": "wit:Re-Discovering_Wittgenstein"
+            },
+            
+          ],
+          "wit:isWrittenBy": {
+            "@type": "wit:xsd;string",
+            "@value": "Deirdre_Smith"
+        
+          },
+          "wit:refersTo": {
+            "@type": "wit:xsd;string",
+            "@value": "Typed_source-207"
+          },
+	   "wit:dateFrom": {
+            "@type": "wit:xsd;int",
+            "@value": "2007"
+          },
+          
+  </script>

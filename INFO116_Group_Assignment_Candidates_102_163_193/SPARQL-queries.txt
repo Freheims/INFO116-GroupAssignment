@@ -1,0 +1,124 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT ?author ?source
+WHERE { 
+    ?author a wit:Author.
+    ?source wit:isWrittenBy ?author.
+    ?source wit:mentions
+	<http://uib.no/INFO116/wittgenstein#simile>.
+}
+
+
++---------------------+-------------------------------------------------------------------------+
+|       author        |                                 source                                  |
++---------------------+-------------------------------------------------------------------------+
+| Deirdre_Smith       | Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_MS_139a |
+| Wittgenstein_Ludwig | Lecture_on_Ethics                                                       |
++---------------------+-------------------------------------------------------------------------+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT ?author ?source ?date
+WHERE { 
+    ?author a wit:Author.
+    ?source wit:isWrittenBy ?author.
+    ?source wit:dateFrom ?date
+}
+	ORDER BY ?date
+
+
++---------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
+|       author        |                                 source                                  |                        date                         |
++---------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
+| Wittgenstein_Ludwig | Lecture_on_Ethics                                                       | "1929"^^<http://www.w3.org/2001/XMLSchema#integer>  |
+| Deirdre_Smith       | Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_MS_139a | "2007""^^<http://www.w3.org/2001/XMLSchema#integer> |
+| Paul_Formosa        | Wittgensteins_Early_Ethical_Thought                                     | "2007""^^<http://www.w3.org/2001/XMLSchema#integer> |
+| Deirdre_Smith       | Re-Discovering_Wittgenstein                                             | "2007""^^<http://www.w3.org/2001/XMLSchema#integer> |
+| Janyne_Sattler      | Moral_Judgement_as_Part_of_What_Ethics_Must_Show                        | "2010""^^<http://www.w3.org/2001/XMLSchema#integer> |
++---------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT ?article ?date
+WHERE {
+	?article wit:isWrittenBy
+	<http://uib.no/INFO116/wittgenstein#Deirdre_Smith>.
+	    ?article wit:dateFrom ?date.
+}
+
++-------------------------------------------------------------------------+-----------------------------------------------------+
+|                                 article                                 |                        date                         |
++-------------------------------------------------------------------------+-----------------------------------------------------+
+| Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_MS_139a | "2007""^^<http://www.w3.org/2001/XMLSchema#integer> |
+| Re-Discovering_Wittgenstein                                             | "2007""^^<http://www.w3.org/2001/XMLSchema#integer> |
++-------------------------------------------------------------------------+-----------------------------------------------------+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT ?articleWriter ?article ?source ?sourceWriter 
+WHERE {
+    ?article wit:isWrittenBy ?articleWriter.
+    ?article wit:refersTo ?source.
+    ?source wit:isWrittenBy ?sourceWriter
+}
+
+
++----------------+---------------------------------------------------+-------------------+---------------------+
+| articleWriter  |                      article                      |      source       |    sourceWriter     |
++----------------+---------------------------------------------------+-------------------+---------------------+
+| Deirdre_Smith  | Re-Discovering_Wittgenstein                       | Lecture_on_Ethics | Wittgenstein_Ludwig |
+| Paul_Formosa   | Wittgensteins_Early_Ethical_Thought               | Lecture_on_Ethics | Wittgenstein_Ludwig |
+| Janyne_Sattler | Moral_Judgements_as_Part_of_What_Ethics_Must_Show | Lecture_on_Ethics | Wittgenstein_Ludwig |
++----------------+---------------------------------------------------+-------------------+---------------------+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wit: <http://uib.no/INFO116/wittgenstein#>
+SELECT  ?source ?chapter
+WHERE { 
+	?source wit:contains ?chapter.
+	FILTER NOT EXISTS {
+		?chapter wit:mentions <http://uib.no/INFO116/wittgenstein#language>
+	}
+	
+}
+ORDER BY ?source
+
+
++-------------------------------------------------------------------------+----------------------------------------------------------------------------+
+|                                 source                                  |                                  chapter                                   |
++-------------------------------------------------------------------------+----------------------------------------------------------------------------+
+| Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_MS_139a | Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_MS_139a_c3 |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c1                                                       |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c2                                                       |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c3                                                       |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c4                                                       |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c5                                                       |
+| Lecture_on_Ethics                                                       | Lecture_on_Ethics_c6                                                       |
+| Moral_Judgements_as_Part_of_What_Ethics_Must_Show                       | Moral_Judgements_as_Part_of_What_Ethics_Must_Show_c1                       |
+| Moral_Judgements_as_Part_of_What_Ethics_Must_Show                       | Moral_Judgements_as_Part_of_What_Ethics_Must_Show_c0                       |
+| Moral_Judgements_as_Part_of_What_Ethics_Must_Show                       | Moral_Judgements_as_Part_of_What_Ethics_Must_Show_c2                       |
+| Re-Discovering_Wittgenstein                                             | Re-Discovering_Wittgenstein_c4                                             |
+| Re-Discovering_Wittgenstein                                             | Re-Discovering_Wittgenstein_c3                                             |
+| Re-Discovering_Wittgenstein                                             | Re-Discovering_Wittgenstein_c1                                             |
+| Re-Discovering_Wittgenstein                                             | Re-Discovering_Wittgenstein_c0                                             |
++-------------------------------------------------------------------------+----------------------------------------------------------------------------+
+

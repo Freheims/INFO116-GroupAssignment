@@ -1,0 +1,70 @@
+<script type="application/json+ld">
+      {
+          "@context": {
+            "wit": "http://uib.no/INFO116/wittgenstein#",
+            "owl": "http://www.w3.org/2002/07/owl#"
+          }, 
+          "@id": "http://wittgensteinrepository.org/agora-alws/article/view/2671/3066",
+       
+         
+          "owl:sameAs": {
+            "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"
+          },
+	
+		"wit:contains": [
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"
+            },
+          
+          ],
+          
+          
+	  "wit:mentions": [
+            {
+              "@id": "wit:ethic"
+            },
+            {
+              "@id": "wit:sense"
+            },
+            {
+              "@id": "wit:absolute"
+            },
+            {
+              "@id": "wit:language"
+            }
+	    {
+              "@id": "wit:value"
+            },
+            {
+              "@id": "wit:simile"
+            },
+          ],
+          "wit:haveWritten": [
+            {
+              "@id": "wit:Ethics, Language and the Development of Wittgenstein’s Thought in Ms 139a"
+            },
+            
+          ],
+          "wit:isWrittenBy": {
+            "@type": "wit:xsd;string",
+            "@value": "Deirdre_Smith"
+	  }
+          "wit:refersTo": {
+            "@type": "wit:xsd;string",
+            "@value": "Typed_source-207"
+          },
+	  "wit:dateFrom": {
+            "@type": "wit:xsd;int",
+            "@value": "2007"
+          },
+          
+  </script>
