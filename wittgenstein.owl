@@ -789,11 +789,8 @@
 :Wittgensteins_Early_Ethical_Thought_c5 rdf:type :Chapter ,
                                                  :NamedIndividual ;
                                         
-                                        :mentions :absolute ,
-                                                  :ethic ,
-                                                  :logical ,
-                                                  :sense ,
-                                                  :value .
+                                        :mentions :ethic ,
+                                                  :sense .
 
 
 
