@@ -8,8 +8,24 @@
        
          
           "owl:sameAs": {
-            "@id": "wit:Ethics, Language and the Development of Wittgenstein’s Thought in Ms 139a"
+            "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a"
           },
+	
+		"wit:contains": [
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3"
+            },
+            {
+              "@id": "wit:Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4"
+            },
+          
+          ],
           
           
 	  "wit:mentions": [
