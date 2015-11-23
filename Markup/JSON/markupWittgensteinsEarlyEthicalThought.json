@@ -11,6 +11,24 @@
             "@id": "wit:Wittgenstein's Early Ethical Thought"
           },
           
+            "wit:contains": [
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c1"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c2"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c3"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c4"
+            },
+            {
+              "@id": "wit:Wittgensteins_Early_thoughts_c5"
+            }
+	   
+	
           
 	  "wit:mentions": [
             {
