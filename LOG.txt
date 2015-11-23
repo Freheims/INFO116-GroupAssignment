@@ -32,3 +32,6 @@ annotating HTML-pages.
 
 20.11
 Finished annotating HTML-pages. Started writing report.
+
+24.11
+
