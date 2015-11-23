@@ -34,4 +34,4 @@ annotating HTML-pages.
 Finished annotating HTML-pages. Started writing report.
 
 24.11
-
+Made some changes to the markup. Finished up stuff.
