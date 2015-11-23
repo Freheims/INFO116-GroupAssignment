@@ -16,12 +16,12 @@ TODO:
     - [x] Learn how to annotate HTML pages
 - [x] Create ontology
 - [x] Annotate HTML pages
-    - [] Add link to json stuff in html
-    - [] look on the vocab-thingy
+    - [x] Add link to json stuff in html
+    - [x] look on the vocab-thingy
 - [x] Create SPARQL queries
     - [x] 1/5
     - [x] 2/5
     - [x] 3/5
     - [x] 4/5
     - [x] 5/5
-- [] Write report
+- [x] Write report
