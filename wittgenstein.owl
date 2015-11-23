@@ -16,7 +16,7 @@
 #################################################################
 
 
-###  http://uib.no/INFO116/wittgenstein#isPartOf
+###  http://www.w3.org/2002/07/owl#isPartOf
 
 :isPartOf rdf:type :AnnotationProperty .
 
@@ -31,25 +31,25 @@
 #################################################################
 
 
-###  http://uib.no/INFO116/wittgenstein#Name
+###  http://www.w3.org/2002/07/owl#Name
 
 :Name rdf:type :ObjectProperty .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#contains
+###  http://www.w3.org/2002/07/owl#contains
 
 :contains rdf:type :ObjectProperty .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#haveWritten
+###  http://www.w3.org/2002/07/owl#haveWritten
 
 :haveWritten rdf:type :ObjectProperty .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#isWrittenBy
+###  http://www.w3.org/2002/07/owl#isWrittenBy
 
 :isWrittenBy rdf:type :ObjectProperty ;
              
@@ -57,14 +57,14 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#mentions
+###  http://www.w3.org/2002/07/owl#mentions
 
 :mentions rdf:type :IrreflexiveProperty ,
                    :ObjectProperty .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#refersTo
+###  http://www.w3.org/2002/07/owl#refersTo
 
 :refersTo rdf:type :ObjectProperty .
 
@@ -79,7 +79,7 @@
 #################################################################
 
 
-###  http://uib.no/INFO116/wittgenstein#dateFrom
+###  http://www.w3.org/2002/07/owl#dateFrom
 
 :dateFrom rdf:type :DatatypeProperty .
 
@@ -94,7 +94,7 @@
 #################################################################
 
 
-###  http://uib.no/INFO116/wittgenstein#Absolute
+###  http://www.w3.org/2002/07/owl#Absolute
 
 :Absolute rdf:type :Class ;
           
@@ -102,7 +102,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Argument
+###  http://www.w3.org/2002/07/owl#Argument
 
 :Argument rdf:type :Class ;
           
@@ -110,7 +110,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Attitude
+###  http://www.w3.org/2002/07/owl#Attitude
 
 :Attitude rdf:type :Class ;
           
@@ -118,7 +118,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Author
+###  http://www.w3.org/2002/07/owl#Author
 
 :Author rdf:type :Class ;
         
@@ -126,7 +126,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Chapter
+###  http://www.w3.org/2002/07/owl#Chapter
 
 :Chapter rdf:type :Class ;
          
@@ -134,7 +134,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Field
+###  http://www.w3.org/2002/07/owl#Field
 
 :Field rdf:type :Class ;
        
@@ -142,7 +142,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Intension
+###  http://www.w3.org/2002/07/owl#Intension
 
 :Intension rdf:type :Class ;
            
@@ -150,7 +150,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Issue
+###  http://www.w3.org/2002/07/owl#Issue
 
 :Issue rdf:type :Class ;
        
@@ -158,13 +158,13 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Person
+###  http://www.w3.org/2002/07/owl#Person
 
 :Person rdf:type :Class .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Perspective
+###  http://www.w3.org/2002/07/owl#Perspective
 
 :Perspective rdf:type :Class ;
              
@@ -172,7 +172,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Philosophy_of_ethics
+###  http://www.w3.org/2002/07/owl#Philosophy_of_ethics
 
 :Philosophy_of_ethics rdf:type :Class ;
                       
@@ -180,7 +180,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Philosophy_of_language
+###  http://www.w3.org/2002/07/owl#Philosophy_of_language
 
 :Philosophy_of_language rdf:type :Class ;
                         
@@ -188,7 +188,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Place
+###  http://www.w3.org/2002/07/owl#Place
 
 :Place rdf:type :Class ;
        
@@ -196,7 +196,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Point
+###  http://www.w3.org/2002/07/owl#Point
 
 :Point rdf:type :Class ;
        
@@ -204,7 +204,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Primary_source
+###  http://www.w3.org/2002/07/owl#Primary_source
 
 :Primary_source rdf:type :Class ;
                 
@@ -212,7 +212,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Relative
+###  http://www.w3.org/2002/07/owl#Relative
 
 :Relative rdf:type :Class ;
           
@@ -220,7 +220,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Secondary_source
+###  http://www.w3.org/2002/07/owl#Secondary_source
 
 :Secondary_source rdf:type :Class ;
                   
@@ -228,7 +228,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Secondary_typed_source
+###  http://www.w3.org/2002/07/owl#Secondary_typed_source
 
 :Secondary_typed_source rdf:type :Class ;
                         
@@ -236,19 +236,19 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Source
+###  http://www.w3.org/2002/07/owl#Source
 
 :Source rdf:type :Class .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Subject
+###  http://www.w3.org/2002/07/owl#Subject
 
 :Subject rdf:type :Class .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Typed_source
+###  http://www.w3.org/2002/07/owl#Typed_source
 
 :Typed_source rdf:type :Class ;
               
@@ -256,7 +256,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgenstein_source
+###  http://www.w3.org/2002/07/owl#Wittgenstein_source
 
 :Wittgenstein_source rdf:type :Class ;
                      
@@ -273,19 +273,69 @@
 #################################################################
 
 
-###  http://uib.no/INFO116/wittgenstein#Deirdre_Smith
+###  http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a
+
+<http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> rdf:type :NamedIndividual ,
+                                                                                                                             :Secondary_typed_source ;
+                                                                                                                    
+                                                                                                                    :dateFrom 2007 ;
+                                                                                                                    
+                                                                                                                    :isWrittenBy :Deirdre_Smith ;
+                                                                                                                    
+                                                                                                                    :contains :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 ,
+                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 ;
+                                                                                                                    
+                                                                                                                    :mentions :absolute ,
+                                                                                                                              :ethic ,
+                                                                                                                              :language ,
+                                                                                                                              :sense ,
+                                                                                                                              :simile ,
+                                                                                                                              :value .
+
+
+
+###  http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought
+
+<http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> rdf:type :NamedIndividual ,
+                                                                                                       :Secondary_typed_source ;
+                                                                                              
+                                                                                              :dateFrom 2007 ;
+                                                                                              
+                                                                                              :refersTo :Lecture_on_Ethics ;
+                                                                                              
+                                                                                              :isWrittenBy :Paul_Formosa ;
+                                                                                              
+                                                                                              :contains :Wittgensteins_Early_Ethical_Thought_c1 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c2 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c3 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c4 ,
+                                                                                                        :Wittgensteins_Early_Ethical_Thought_c5 ;
+                                                                                              
+                                                                                              :mentions :absolute ,
+                                                                                                        :ethic ,
+                                                                                                        :language ,
+                                                                                                        :logical ,
+                                                                                                        :metaphysical ,
+                                                                                                        :sense ,
+                                                                                                        :value .
+
+
+
+###  http://www.w3.org/2002/07/owl#Deirdre_Smith
 
 :Deirdre_Smith rdf:type :Author ,
                         :NamedIndividual ;
                
                :dateFrom 2007 ;
                
-               :haveWritten :Re-Discovering_Wittgenstein ,
-                            <http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> .
+               :haveWritten <http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> ,
+                            :Re-Discovering_Wittgenstein .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1
 
 :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 rdf:type :Chapter ,
                                                                                      :NamedIndividual ;
@@ -298,7 +348,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2
 
 :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 rdf:type :Chapter ,
                                                                                      :NamedIndividual ;
@@ -313,7 +363,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3
 
 :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 rdf:type :Chapter ,
                                                                                      :NamedIndividual ;
@@ -328,7 +378,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4
+###  http://www.w3.org/2002/07/owl#Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4
 
 :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 rdf:type :Chapter ,
                                                                                      :NamedIndividual ;
@@ -343,7 +393,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Janyne_Sattler
+###  http://www.w3.org/2002/07/owl#Janyne_Sattler
 
 :Janyne_Sattler rdf:type :Author ,
                          :NamedIndividual ;
@@ -354,10 +404,10 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics
 
-:Lecture_on_Ethics rdf:type :Typed_source ,
-                            :NamedIndividual ;
+:Lecture_on_Ethics rdf:type :NamedIndividual ,
+                            :Typed_source ;
                    
                    :dateFrom 1929 ;
                    
@@ -383,14 +433,14 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c1
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c1
 
 :Lecture_on_Ethics_c1 rdf:type :Chapter ,
                                :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c10
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c10
 
 :Lecture_on_Ethics_c10 rdf:type :Chapter ,
                                 :NamedIndividual ;
@@ -403,7 +453,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c2
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c2
 
 :Lecture_on_Ethics_c2 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -413,7 +463,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c3
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c3
 
 :Lecture_on_Ethics_c3 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -425,7 +475,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c4
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c4
 
 :Lecture_on_Ethics_c4 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -438,7 +488,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c5
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c5
 
 :Lecture_on_Ethics_c5 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -451,7 +501,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c6
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c6
 
 :Lecture_on_Ethics_c6 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -464,7 +514,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c7
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c7
 
 :Lecture_on_Ethics_c7 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -475,7 +525,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c8
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c8
 
 :Lecture_on_Ethics_c8 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -489,7 +539,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Lecture_on_Ethics_c9
+###  http://www.w3.org/2002/07/owl#Lecture_on_Ethics_c9
 
 :Lecture_on_Ethics_c9 rdf:type :Chapter ,
                                :NamedIndividual ;
@@ -501,14 +551,14 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Locical_analysis_is_essential_to_ethic
+###  http://www.w3.org/2002/07/owl#Locical_analysis_is_essential_to_ethic
 
-:Locical_analysis_is_essential_to_ethic rdf:type :Point ,
-                                                 :NamedIndividual .
+:Locical_analysis_is_essential_to_ethic rdf:type :NamedIndividual ,
+                                                 :Point .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0
 
 :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c0 rdf:type :Chapter ,
                                                               :NamedIndividual ;
@@ -518,7 +568,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1
 
 :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c1 rdf:type :Chapter ,
                                                               :NamedIndividual ;
@@ -533,7 +583,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2
+###  http://www.w3.org/2002/07/owl#Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2
 
 :Moral_Judgement_as_Part_of_What_Ethics_Must_Show_c2 rdf:type :Chapter ,
                                                               :NamedIndividual ;
@@ -547,10 +597,10 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Moral_Judgments_as_Part_of_What_Ethics_Must_Show
+###  http://www.w3.org/2002/07/owl#Moral_Judgments_as_Part_of_What_Ethics_Must_Show
 
-:Moral_Judgments_as_Part_of_What_Ethics_Must_Show rdf:type :Secondary_typed_source ,
-                                                           :NamedIndividual ;
+:Moral_Judgments_as_Part_of_What_Ethics_Must_Show rdf:type :NamedIndividual ,
+                                                           :Secondary_typed_source ;
                                                   
                                                   :dateFrom 2010 ;
                                                   
@@ -572,7 +622,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Paul_Formosa
+###  http://www.w3.org/2002/07/owl#Paul_Formosa
 
 :Paul_Formosa rdf:type :Author ,
                        :NamedIndividual ;
@@ -583,10 +633,10 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein
 
-:Re-Discovering_Wittgenstein rdf:type :Secondary_typed_source ,
-                                      :NamedIndividual ;
+:Re-Discovering_Wittgenstein rdf:type :NamedIndividual ,
+                                      :Secondary_typed_source ;
                              
                              :dateFrom 2007 ;
                              
@@ -609,7 +659,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c0
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c0
 
 :Re-Discovering_Wittgenstein_c0 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -618,7 +668,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c1
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c1
 
 :Re-Discovering_Wittgenstein_c1 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -628,7 +678,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c2
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c2
 
 :Re-Discovering_Wittgenstein_c2 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -637,7 +687,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c3
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c3
 
 :Re-Discovering_Wittgenstein_c3 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -646,7 +696,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c4
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c4
 
 :Re-Discovering_Wittgenstein_c4 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -655,7 +705,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Re-Discovering_Wittgenstein_c5
+###  http://www.w3.org/2002/07/owl#Re-Discovering_Wittgenstein_c5
 
 :Re-Discovering_Wittgenstein_c5 rdf:type :Chapter ,
                                          :NamedIndividual ;
@@ -666,7 +716,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgenstein_Ludwig
+###  http://www.w3.org/2002/07/owl#Wittgenstein_Ludwig
 
 :Wittgenstein_Ludwig rdf:type :Author ,
                               :NamedIndividual ;
@@ -675,15 +725,15 @@
                      
                      :haveWritten :Lecture_on_Ethics .
 [ rdf:type :Axiom ;
+  :annotatedProperty rdf:type ;
   :annotatedTarget :Author ;
-  :isPartOf :Wittgenstein_Ludwig ;
   :annotatedSource :Wittgenstein_Ludwig ;
-  :annotatedProperty rdf:type
+  :isPartOf :Wittgenstein_Ludwig
 ] .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgensteins_Early_Ethical_Thought_c1
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c1
 
 :Wittgensteins_Early_Ethical_Thought_c1 rdf:type :Chapter ,
                                                  :NamedIndividual ;
@@ -696,7 +746,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgensteins_Early_Ethical_Thought_c2
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c2
 
 :Wittgensteins_Early_Ethical_Thought_c2 rdf:type :Chapter ,
                                                  :NamedIndividual ;
@@ -709,7 +759,7 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgensteins_Early_Ethical_Thought_c3
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c3
 
 :Wittgensteins_Early_Ethical_Thought_c3 rdf:type :Chapter ,
                                                  :NamedIndividual ;
@@ -722,20 +772,19 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgensteins_Early_Ethical_Thought_c4
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c4
 
 :Wittgensteins_Early_Ethical_Thought_c4 rdf:type :Chapter ,
                                                  :NamedIndividual ;
                                         
-                                        :mentions :absolute ,
-                                                  :ethic ,
+                                        :mentions :ethic ,
                                                   :logical ,
                                                   :sense ,
                                                   :value .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Wittgensteins_Early_Ethical_Thought_c5
+###  http://www.w3.org/2002/07/owl#Wittgensteins_Early_Ethical_Thought_c5
 
 :Wittgensteins_Early_Ethical_Thought_c5 rdf:type :Chapter ,
                                                  :NamedIndividual ;
@@ -748,126 +797,76 @@
 
 
 
-###  http://uib.no/INFO116/wittgenstein#absolute
+###  http://www.w3.org/2002/07/owl#absolute
 
 :absolute rdf:type :Issue ,
                    :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#ethic
+###  http://www.w3.org/2002/07/owl#ethic
 
 :ethic rdf:type :Issue ,
                 :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#language
+###  http://www.w3.org/2002/07/owl#language
 
 :language rdf:type :Issue ,
                    :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#locigalAnalysis
+###  http://www.w3.org/2002/07/owl#locigalAnalysis
 
 :locigalAnalysis rdf:type :Issue ,
                           :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#logical
+###  http://www.w3.org/2002/07/owl#logical
 
 :logical rdf:type :Issue ,
                   :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#metaphysical
+###  http://www.w3.org/2002/07/owl#metaphysical
 
 :metaphysical rdf:type :Issue ,
                        :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#semantic
+###  http://www.w3.org/2002/07/owl#semantic
 
 :semantic rdf:type :Issue ,
                    :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#sense
+###  http://www.w3.org/2002/07/owl#sense
 
 :sense rdf:type :Issue ,
                 :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#simile
+###  http://www.w3.org/2002/07/owl#simile
 
 :simile rdf:type :Issue ,
                  :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#value
+###  http://www.w3.org/2002/07/owl#value
 
 :value rdf:type :Issue ,
                 :NamedIndividual .
 
 
 
-###  http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a
 
-<http://uib.no/INFO116/wittgenstein#Ethics,Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a> rdf:type :Secondary_typed_source ,
-                                                                                                                             :NamedIndividual ;
-                                                                                                                    
-                                                                                                                    :dateFrom 2007 ;
-                                                                                                                    
-                                                                                                                    :isWrittenBy :Deirdre_Smith ;
-                                                                                                                    
-                                                                                                                    :contains :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c1 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c2 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c3 ,
-                                                                                                                              :Ethics_Language_and_the_Development_of_Wittgensteins_Thought_in_Ms_139a_c4 ;
-                                                                                                                    
-                                                                                                                    :mentions :absolute ,
-                                                                                                                              :ethic ,
-                                                                                                                              :language ,
-                                                                                                                              :sense ,
-                                                                                                                              :simile ,
-                                                                                                                              :value .
-
-
-
-###  http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought
-
-<http://uib.no/INFO116/wittgenstein#Saying_the_Unsayable:Wittgensteins_Early_Ethical_Thought> rdf:type :Secondary_typed_source ,
-                                                                                                       :NamedIndividual ;
-                                                                                              
-                                                                                              :dateFrom 2007 ;
-                                                                                              
-                                                                                              :refersTo :Lecture_on_Ethics ;
-                                                                                              
-                                                                                              :isWrittenBy :Paul_Formosa ;
-                                                                                              
-                                                                                              :contains :Wittgensteins_Early_Ethical_Thought_c1 ,
-                                                                                                        :Wittgensteins_Early_Ethical_Thought_c2 ,
-                                                                                                        :Wittgensteins_Early_Ethical_Thought_c3 ,
-                                                                                                        :Wittgensteins_Early_Ethical_Thought_c4 ,
-                                                                                                        :Wittgensteins_Early_Ethical_Thought_c5 ;
-                                                                                              
-                                                                                              :mentions :absolute ,
-                                                                                                        :ethic ,
-                                                                                                        :language ,
-                                                                                                        :logical ,
-                                                                                                        :metaphysical ,
-                                                                                                        :sense ,
-                                                                                                        :value .
-
-
-
-
-###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
 
